@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA592959-802E-481D-A2B7-6C541D5D89CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PowerLine</RootNamespace>
+    <AssemblyName>PowerLine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\UDPServer.cs" />
+    <Compile Include="Программа\Canvas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Программа\Objects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\CorrectPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\CorrectPosition.Designer.cs">
+      <DependentUpon>CorrectPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\SetText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\SetText.Designer.cs">
+      <DependentUpon>SetText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\TextFiled.cs" />
+    <Compile Include="Классы\Properties.cs" />
+    <Compile Include="Программа\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Программа\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\SetStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\SetStation.Designer.cs">
+      <DependentUpon>SetStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\Station.cs" />
+    <Compile Include="Программа\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Программа\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\Line.cs" />
+    <Compile Include="Формы дополн\PrintMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\PrintMode.Designer.cs">
+      <DependentUpon>PrintMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Программа\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Формы дополн\SetLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\SetLine.Designer.cs">
+      <DependentUpon>SetLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\ZoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\ZoomForm.Designer.cs">
+      <DependentUpon>ZoomForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Формы дополн\CorrectPosition.resx">
+      <DependentUpon>CorrectPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\SetText.resx">
+      <DependentUpon>SetText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Программа\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\SetStation.resx">
+      <DependentUpon>SetStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Программа\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\PrintMode.resx">
+      <DependentUpon>PrintMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\SetLine.resx">
+      <DependentUpon>SetLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\ZoomForm.resx">
+      <DependentUpon>ZoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Программа\app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t7.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
