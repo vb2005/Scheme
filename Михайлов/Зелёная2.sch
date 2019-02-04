@@ -297,38 +297,6 @@
       <Width>1</Width>
       <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
-        <X>571</X>
-        <Y>532</Y>
-      </StartPoint>
-      <EndPoint>
-        <X>531</X>
-        <Y>532</Y>
-      </EndPoint>
-      <NeedUpdate>false</NeedUpdate>
-    </Line>
-    <Line>
-      <Name />
-      <Description />
-      <Dash>false</Dash>
-      <Width>1</Width>
-      <ColorIndex>-3631516</ColorIndex>
-      <StartPoint>
-        <X>1271</X>
-        <Y>532</Y>
-      </StartPoint>
-      <EndPoint>
-        <X>1216</X>
-        <Y>532</Y>
-      </EndPoint>
-      <NeedUpdate>false</NeedUpdate>
-    </Line>
-    <Line>
-      <Name />
-      <Description />
-      <Dash>false</Dash>
-      <Width>1</Width>
-      <ColorIndex>-3631516</ColorIndex>
-      <StartPoint>
         <X>531</X>
         <Y>592</Y>
       </StartPoint>
@@ -1202,6 +1170,102 @@
       </EndPoint>
       <NeedUpdate>false</NeedUpdate>
     </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>575</X>
+        <Y>495</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>530</X>
+        <Y>495</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>593</X>
+        <Y>436</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>593</X>
+        <Y>466</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>593</X>
+        <Y>436</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>637</X>
+        <Y>436</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>1214</X>
+        <Y>489</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>1270</X>
+        <Y>489</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>1086</X>
+        <Y>687</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>1141</X>
+        <Y>687</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>1176</X>
+        <Y>687</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>1233</X>
+        <Y>687</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
   </Lines>
   <Stations>
     <Station>
@@ -1518,18 +1582,6 @@
     </Station>
     <Station>
       <Size>75</Size>
-      <Type>Station13</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>1180</X>
-        <Y>430</Y>
-      </Location>
-      <Angle>-0</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
       <Type>Station28</Type>
       <State>false</State>
       <Description />
@@ -1559,7 +1611,7 @@
       <Description />
       <Location>
         <X>493</X>
-        <Y>459</Y>
+        <Y>474</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -1571,7 +1623,7 @@
       <Description />
       <Location>
         <X>1234</X>
-        <Y>455</Y>
+        <Y>476</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -1602,18 +1654,6 @@
     </Station>
     <Station>
       <Size>75</Size>
-      <Type>Station13</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>563</X>
-        <Y>429</Y>
-      </Location>
-      <Angle>-0</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
       <Type>Station29</Type>
       <State>false</State>
       <Description />
@@ -1632,30 +1672,6 @@
       <Location>
         <X>1119</X>
         <Y>429</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station23</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>533</X>
-        <Y>494</Y>
-      </Location>
-      <Angle>180</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station5</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>1179</X>
-        <Y>495</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -1951,23 +1967,11 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>579</X>
         <Y>639</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station11</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>663</X>
-        <Y>640</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -1979,7 +1983,7 @@
       <Description />
       <Location>
         <X>338</X>
-        <Y>681</Y>
+        <Y>671</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -1991,19 +1995,7 @@
       <Description />
       <Location>
         <X>418</X>
-        <Y>684</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station13</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>503</X>
-        <Y>682</Y>
+        <Y>671</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -2015,7 +2007,7 @@
       <Description />
       <Location>
         <X>578</X>
-        <Y>682</Y>
+        <Y>672</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -2034,18 +2026,6 @@
     </Station>
     <Station>
       <Size>75</Size>
-      <Type>Station13</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>663</X>
-        <Y>750</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
       <Type>Station26</Type>
       <State>false</State>
       <Description />
@@ -2054,66 +2034,6 @@
         <Y>803</Y>
       </Location>
       <Angle>360</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station23</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>1098</X>
-        <Y>690</Y>
-      </Location>
-      <Angle>180</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station23</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>1195</X>
-        <Y>690</Y>
-      </Location>
-      <Angle>180</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station12</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>1049</X>
-        <Y>661</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station12</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>1138</X>
-        <Y>659</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station13</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>1308</X>
-        <Y>754</Y>
-      </Location>
-      <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -2179,7 +2099,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>748</X>
@@ -2272,6 +2192,210 @@
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>534</X>
+        <Y>458</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>590</X>
+        <Y>399</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1178</X>
+        <Y>452</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>339</X>
+        <Y>690</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>419</X>
+        <Y>690</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>504</X>
+        <Y>691</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>578</X>
+        <Y>692</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1139</X>
+        <Y>637</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1049</X>
+        <Y>638</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station13</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1049</X>
+        <Y>662</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station13</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1139</X>
+        <Y>662</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1049</X>
+        <Y>680</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1139</X>
+        <Y>681</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1093</X>
+        <Y>649</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1093</X>
+        <Y>690</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1187</X>
+        <Y>649</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1187</X>
+        <Y>690</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
   </Stations>
   <Texts>
     <TextField>
@@ -2308,7 +2432,7 @@
     </TextField>
     <TextField>
       <Description>ЛР-35 кВ  
-ВЛ 45 кВ  
+ВЛ 35 кВ  
 "Вилёнки 
 Зелёная-2"  </Description>
       <Location>
@@ -2334,26 +2458,6 @@
         <Y>242</Y>
       </Location>
       <Size>10</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>ШР-35 кВ 1 сек. ш.   
-35 кВ Т-1  </Description>
-      <Location>
-        <X>585</X>
-        <Y>281</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>ШР-35 кВ 2 сек. ш.   
-35 кВ Т-2  </Description>
-      <Location>
-        <X>1226</X>
-        <Y>281</Y>
-      </Location>
-      <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
@@ -2473,7 +2577,7 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>РВО-6  
+      <Description>ОПН-6  
 ТР-6 кВ Т-1  </Description>
       <Location>
         <X>498</X>
@@ -2660,26 +2764,6 @@
         <Y>890</Y>
       </Location>
       <Size>12</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>ВВ 6 кВ  
-Ф №4  </Description>
-      <Location>
-        <X>1211</X>
-        <Y>697</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>ВВ 6 кВ
-Ф №8  </Description>
-      <Location>
-        <X>1116</X>
-        <Y>697</Y>
-      </Location>
-      <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
@@ -2945,6 +3029,116 @@ In = 150/916A  </Description>
       <Location>
         <X>588</X>
         <Y>348</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР 6 кВ 1 с.ш.  </Description>
+      <Location>
+        <X>832</X>
+        <Y>680</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР 6 кВ 2 с.ш.  </Description>
+      <Location>
+        <X>929</X>
+        <Y>700</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР - 6 кВ   
+ТН - 6 кВ  </Description>
+      <Location>
+        <X>740</X>
+        <Y>720</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР - 6 кВ   
+ТН - 6 кВ  </Description>
+      <Location>
+        <X>1385</X>
+        <Y>720</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР-35 кВ  Т-1  </Description>
+      <Location>
+        <X>577</X>
+        <Y>275</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР-35 кВ  Т-2  </Description>
+      <Location>
+        <X>1227</X>
+        <Y>275</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР 6 кВ  </Description>
+      <Location>
+        <X>410</X>
+        <Y>675</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР 6 кВ  </Description>
+      <Location>
+        <X>490</X>
+        <Y>676</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР 6 кВ  </Description>
+      <Location>
+        <X>573</X>
+        <Y>675</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ШР 6 кВ  </Description>
+      <Location>
+        <X>649</X>
+        <Y>675</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ВВ 6 кВ  </Description>
+      <Location>
+        <X>1122</X>
+        <Y>706</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ВВ 6 кВ  </Description>
+      <Location>
+        <X>1207</X>
+        <Y>705</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>

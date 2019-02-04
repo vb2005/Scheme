@@ -2673,7 +2673,7 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>МВ 
+      <Description>ВВ 
 Ф №7 </Description>
       <Location>
         <X>161</X>
@@ -2683,7 +2683,7 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>МВ 
+      <Description>ВВ 
 Ф №8 </Description>
       <Location>
         <X>165</X>
@@ -2703,7 +2703,7 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>МВ 
+      <Description>ВВ 
 Ф №10 </Description>
       <Location>
         <X>167</X>
@@ -2719,16 +2719,6 @@
         <Y>83</Y>
       </Location>
       <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>МВ  
-Ф №6  </Description>
-      <Location>
-        <X>160</X>
-        <Y>71</Y>
-      </Location>
-      <Size>12</Size>
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
@@ -2916,6 +2906,16 @@
       <Location>
         <X>960</X>
         <Y>20</Y>
+      </Location>
+      <Size>12</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ВВ  
+Ф №6  </Description>
+      <Location>
+        <X>161</X>
+        <Y>70</Y>
       </Location>
       <Size>12</Size>
       <NeedUpdate>false</NeedUpdate>

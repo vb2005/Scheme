@@ -1655,7 +1655,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>262</X>
         <Y>765</Y>
@@ -1671,7 +1671,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>172</X>
         <Y>855</Y>
@@ -1687,7 +1687,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>232</X>
         <Y>855</Y>
@@ -1703,7 +1703,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>172</X>
         <Y>720</Y>
@@ -1719,7 +1719,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>232</X>
         <Y>720</Y>
@@ -1735,7 +1735,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>167</X>
         <Y>510</Y>
@@ -1751,7 +1751,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>232</X>
         <Y>510</Y>
@@ -1767,7 +1767,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>172</X>
         <Y>400</Y>
@@ -1783,7 +1783,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>232</X>
         <Y>400</Y>
@@ -1799,7 +1799,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>167</X>
         <Y>175</Y>
@@ -1815,7 +1815,7 @@
       <Description />
       <Dash>false</Dash>
       <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
+      <ColorIndex>-3631516</ColorIndex>
       <StartPoint>
         <X>232</X>
         <Y>175</Y>
@@ -1951,6 +1951,70 @@
       <EndPoint>
         <X>372</X>
         <Y>735</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-3631516</ColorIndex>
+      <StartPoint>
+        <X>447</X>
+        <Y>965</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>447</X>
+        <Y>980</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-3631516</ColorIndex>
+      <StartPoint>
+        <X>446</X>
+        <Y>980</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>507</X>
+        <Y>980</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-3631516</ColorIndex>
+      <StartPoint>
+        <X>497</X>
+        <Y>291</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>538</X>
+        <Y>291</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-3631516</ColorIndex>
+      <StartPoint>
+        <X>416</X>
+        <Y>292</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>376</X>
+        <Y>292</Y>
       </EndPoint>
       <NeedUpdate>false</NeedUpdate>
     </Line>
@@ -2187,7 +2251,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>735</X>
@@ -2263,7 +2327,7 @@
       <Description />
       <Location>
         <X>380</X>
-        <Y>239</Y>
+        <Y>236</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -2275,7 +2339,7 @@
       <Description />
       <Location>
         <X>460</X>
-        <Y>241</Y>
+        <Y>236</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -2595,18 +2659,6 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>1060</X>
-        <Y>195</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station11</Type>
       <State>false</State>
       <Description />
       <Location>
@@ -2619,7 +2671,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1331</X>
@@ -2967,18 +3019,6 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>344</X>
-        <Y>550</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station11</Type>
       <State>true</State>
       <Description />
       <Location>
@@ -3106,30 +3146,6 @@
         <Y>844</Y>
       </Location>
       <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station11</Type>
-      <State>true</State>
-      <Description />
-      <Location>
-        <X>410</X>
-        <Y>895</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station24</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>411</X>
-        <Y>937</Y>
-      </Location>
-      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -3588,6 +3604,90 @@
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1210</X>
+        <Y>193</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>410</X>
+        <Y>889</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>410</X>
+        <Y>930</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station13</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>410</X>
+        <Y>910</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station24</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>448</X>
+        <Y>942</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>342</X>
+        <Y>254</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>498</X>
+        <Y>254</Y>
+      </Location>
+      <Angle>180</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
   </Stations>
   <Texts>
     <TextField>
@@ -3778,17 +3878,7 @@
 Т-1 </Description>
       <Location>
         <X>528</X>
-        <Y>284</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>ВН 
-Т-2 </Description>
-      <Location>
-        <X>443</X>
-        <Y>283</Y>
+        <Y>272</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -3882,16 +3972,6 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>ЗТП №24  
-400 кВА  </Description>
-      <Location>
-        <X>806</X>
-        <Y>351</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
       <Description>КРУН №5  </Description>
       <Location>
         <X>887</X>
@@ -3961,16 +4041,6 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>ЗТП №23 
-630/560 кВА </Description>
-      <Location>
-        <X>952</X>
-        <Y>348</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
       <Description>Р  
 Т-1  </Description>
       <Location>
@@ -4000,16 +4070,6 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>ЛР  
-Ф №1  </Description>
-      <Location>
-        <X>1073</X>
-        <Y>230</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
       <Description>ЗТП №22  
 250/250 кВА  </Description>
       <Location>
@@ -4034,15 +4094,6 @@
       <Location>
         <X>1220</X>
         <Y>138</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
-      <Description>КРУН №7  </Description>
-      <Location>
-        <X>1378</X>
-        <Y>194</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -4405,16 +4456,6 @@
       <NeedUpdate>false</NeedUpdate>
     </TextField>
     <TextField>
-      <Description>ЗТП №1 
-320 кВА </Description>
-      <Location>
-        <X>707</X>
-        <Y>885</Y>
-      </Location>
-      <Size>7</Size>
-      <NeedUpdate>false</NeedUpdate>
-    </TextField>
-    <TextField>
       <Description>МВ  
 Ф №4 </Description>
       <Location>
@@ -4466,6 +4507,65 @@
         <Y>560</Y>
       </Location>
       <Size>12</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЛР 
+Ф №1  </Description>
+      <Location>
+        <X>1223</X>
+        <Y>230</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КРУН №2   </Description>
+      <Location>
+        <X>1375</X>
+        <Y>195</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП №1   
+400 кВА  </Description>
+      <Location>
+        <X>712</X>
+        <Y>887</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП №24  
+630 кВА  </Description>
+      <Location>
+        <X>800</X>
+        <Y>350</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП №23  
+630/400 кВА  </Description>
+      <Location>
+        <X>945</X>
+        <Y>345</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ВН  
+Т-2  </Description>
+      <Location>
+        <X>396</X>
+        <Y>273</Y>
+      </Location>
+      <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
     </TextField>
   </Texts>

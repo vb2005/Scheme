@@ -1386,7 +1386,7 @@
     </TextField>
     <TextField>
       <Description>КТП №301 
-600 кВА  </Description>
+400 кВА  </Description>
       <Location>
         <X>526</X>
         <Y>391</Y>
