@@ -32,13 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.печатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.режимToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,8 +45,6 @@
             this.отобажатьОбъектыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.использоватьСеткуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.увеличитьМасштабToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.сетевоеВзаимодействиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сделатьВсеЛинии10КВToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сделатьВесьПунктирДругимЦветомToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,6 +55,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.info1 = new PowerLine.Info();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -72,11 +70,10 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem1,
             this.режимToolStripMenuItem,
-            this.сетевоеВзаимодействиеToolStripMenuItem,
             this.proToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1924, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -96,47 +93,6 @@
             this.файлToolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
             this.файлToolStripMenuItem1.Text = "&Файл";
             // 
-            // создатьToolStripMenuItem
-            // 
-            this.создатьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("создатьToolStripMenuItem.Image")));
-            this.создатьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
-            this.создатьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            this.создатьToolStripMenuItem.Text = "&Создать схему";
-            this.создатьToolStripMenuItem.Click += new System.EventHandler(this.создатьToolStripMenuItem_Click);
-            // 
-            // открытьToolStripMenuItem
-            // 
-            this.открытьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("открытьToolStripMenuItem.Image")));
-            this.открытьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            this.открытьToolStripMenuItem.Text = "&Открыть схему";
-            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
-            this.toolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(269, 22);
-            this.toolStripMenuItem1.Text = "&Сохранить схему";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // сохранитьToolStripMenuItem
-            // 
-            this.сохранитьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("сохранитьToolStripMenuItem.Image")));
-            this.сохранитьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.S)));
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            this.сохранитьToolStripMenuItem.Text = "&Сохранить схему как...";
-            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
-            // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
@@ -146,16 +102,6 @@
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(266, 6);
-            // 
-            // печатьToolStripMenuItem
-            // 
-            this.печатьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("печатьToolStripMenuItem.Image")));
-            this.печатьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.печатьToolStripMenuItem.Name = "печатьToolStripMenuItem";
-            this.печатьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.печатьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            this.печатьToolStripMenuItem.Text = "&Печать";
-            this.печатьToolStripMenuItem.Click += new System.EventHandler(this.печатьToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -247,22 +193,6 @@
             this.увеличитьМасштабToolStripMenuItem.Text = "Увеличить масштаб...";
             this.увеличитьМасштабToolStripMenuItem.Click += new System.EventHandler(this.увеличитьМасштабToolStripMenuItem_Click);
             // 
-            // сетевоеВзаимодействиеToolStripMenuItem
-            // 
-            this.сетевоеВзаимодействиеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem});
-            this.сетевоеВзаимодействиеToolStripMenuItem.Name = "сетевоеВзаимодействиеToolStripMenuItem";
-            this.сетевоеВзаимодействиеToolStripMenuItem.Size = new System.Drawing.Size(155, 20);
-            this.сетевоеВзаимодействиеToolStripMenuItem.Text = "Сетевое взаимодействие";
-            // 
-            // обновитьСхемыНаВсехУстройствахToolStripMenuItem
-            // 
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem.Name = "обновитьСхемыНаВсехУстройствахToolStripMenuItem";
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem.Text = "Обновить схемы на всех устройствах";
-            this.обновитьСхемыНаВсехУстройствахToolStripMenuItem.Click += new System.EventHandler(this.обновитьСхемыНаВсехУстройствахToolStripMenuItem_Click);
-            // 
             // proToolStripMenuItem
             // 
             this.proToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -324,7 +254,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1924, 1018);
+            this.panel1.Size = new System.Drawing.Size(1276, 974);
             this.panel1.TabIndex = 4;
             this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CLICK);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DOWN);
@@ -338,13 +268,64 @@
             this.shapeContainer2.Name = "shapeContainer2";
             this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-            this.shapeContainer2.Size = new System.Drawing.Size(1924, 1018);
+            this.shapeContainer2.Size = new System.Drawing.Size(1276, 974);
             this.shapeContainer2.TabIndex = 0;
             this.shapeContainer2.TabStop = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
+            // 
+            // создатьToolStripMenuItem
+            // 
+            this.создатьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("создатьToolStripMenuItem.Image")));
+            this.создатьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
+            this.создатьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
+            this.создатьToolStripMenuItem.Text = "&Создать схему";
+            this.создатьToolStripMenuItem.Click += new System.EventHandler(this.создатьToolStripMenuItem_Click);
+            // 
+            // открытьToolStripMenuItem
+            // 
+            this.открытьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("открытьToolStripMenuItem.Image")));
+            this.открытьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
+            this.открытьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
+            this.открытьToolStripMenuItem.Text = "&Открыть схему";
+            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
+            this.toolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(269, 22);
+            this.toolStripMenuItem1.Text = "&Сохранить схему";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // сохранитьToolStripMenuItem
+            // 
+            this.сохранитьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("сохранитьToolStripMenuItem.Image")));
+            this.сохранитьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
+            this.сохранитьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.S)));
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
+            this.сохранитьToolStripMenuItem.Text = "&Сохранить схему как...";
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
+            // 
+            // печатьToolStripMenuItem
+            // 
+            this.печатьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("печатьToolStripMenuItem.Image")));
+            this.печатьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.печатьToolStripMenuItem.Name = "печатьToolStripMenuItem";
+            this.печатьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.печатьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
+            this.печатьToolStripMenuItem.Text = "&Печать";
+            this.печатьToolStripMenuItem.Click += new System.EventHandler(this.печатьToolStripMenuItem_Click);
             // 
             // info1
             // 
@@ -359,13 +340,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1924, 1042);
+            this.ClientSize = new System.Drawing.Size(1276, 998);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Расстановка элементов";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DOWN);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MOVE);
@@ -400,8 +382,6 @@
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.ToolStripMenuItem сетевоеВзаимодействиеToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem обновитьСхемыНаВсехУстройствахToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem отобажатьОбъектыToolStripMenuItem;

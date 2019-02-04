@@ -59,6 +59,8 @@
             System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem("", 26);
             System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem("", 27);
             System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem("", 28);
+            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem("", 29);
+            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem("", 30);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetStation));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -83,7 +85,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 368);
+            this.textBox2.Location = new System.Drawing.Point(12, 410);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(142, 25);
@@ -92,7 +94,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 349);
+            this.label2.Location = new System.Drawing.Point(12, 391);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 2;
@@ -100,7 +102,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(163, 339);
+            this.button2.Location = new System.Drawing.Point(163, 381);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 23);
             this.button2.TabIndex = 0;
@@ -110,7 +112,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(163, 368);
+            this.button3.Location = new System.Drawing.Point(163, 410);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 23);
             this.button3.TabIndex = 9;
@@ -168,14 +170,16 @@
             listViewItem27,
             listViewItem28,
             listViewItem29,
-            listViewItem30});
+            listViewItem30,
+            listViewItem31,
+            listViewItem32});
             this.listView1.LabelWrap = false;
             this.listView1.LargeImageList = this.imageList1;
             this.listView1.Location = new System.Drawing.Point(12, 12);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Scrollable = false;
-            this.listView1.Size = new System.Drawing.Size(263, 315);
+            this.listView1.Size = new System.Drawing.Size(263, 363);
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.TabIndex = 11;
             this.listView1.TileSize = new System.Drawing.Size(50, 50);
@@ -216,6 +220,8 @@
             this.imageList1.Images.SetKeyName(26, "t5.png");
             this.imageList1.Images.SetKeyName(27, "t6.png");
             this.imageList1.Images.SetKeyName(28, "t7.png");
+            this.imageList1.Images.SetKeyName(29, "l1.png");
+            this.imageList1.Images.SetKeyName(30, "l2.png");
             // 
             // numericUpDown1
             // 
@@ -224,7 +230,7 @@
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(82, 342);
+            this.numericUpDown1.Location = new System.Drawing.Point(82, 384);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             360,
             0,
@@ -238,7 +244,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 405);
+            this.ClientSize = new System.Drawing.Size(292, 444);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.comboBox1);

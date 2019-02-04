@@ -149,19 +149,16 @@ namespace PowerLine
 
 
                 case StationType.Station15:
-                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a1, Angle, false);
+                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a2, Angle, false);
                     break;
                 case StationType.Station16:
-                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a2, Angle, false);
+                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a1, Angle, false);
                     break;
                 case StationType.Station17:
                     pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a3, Angle, false);
                     break;
                 case StationType.Station18:
                     pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.a8, Angle, false);
-                    pb.Height = 40;
-                    pb.Width = 125;
-                    pb.Location = new Point(pb.Location.X - 50, pb.Location.Y + 30);
                     break;
                 case StationType.Station19:
                     pb.BackgroundImage = PowerLine.Properties.Resources.a4;
@@ -218,6 +215,15 @@ namespace PowerLine
                 case StationType.Station29:
                     pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.t7, Angle, true);
                     break;
+
+                case StationType.Station30:
+                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.l1, Angle, true);
+                    break;
+
+                case StationType.Station31:
+                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.l2, Angle, true);
+                    break;
+
 
              //   case StationType.Station30:
              //       pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.t8, Angle, true);
@@ -334,6 +340,11 @@ namespace PowerLine
         Station29 = 28,
         // T-7
         Station30 = 29,
+
+        // Line 1
+        Station31 = 30,
+        // Line 2
+        Station32 = 31,
 
     }
 }

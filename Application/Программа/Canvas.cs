@@ -122,49 +122,52 @@ namespace PowerLine
 
         private void MOVE(object sender, MouseEventArgs e)
         {
-            if ((_mode == 0) | (_mode == 4))
-                if (_f)
-                {
-                    Point m = Line.getNear(new Point(e.X, e.Y));
-                    ls.X2 = m.X;
-                    ls.Y2 = m.Y;
-                }
-
-            if (_mode == 5)
+            if (e.Button != System.Windows.Forms.MouseButtons.None)
             {
-                foreach (var u in Selection)
+                if ((_mode == 0) | (_mode == 4))
+                    if (_f)
+                    {
+                        Point m = Line.getNear(new Point(e.X, e.Y));
+                        ls.X2 = m.X;
+                        ls.Y2 = m.Y;
+                    }
+
+                if (_mode == 5)
                 {
-                    if (u.GetType() == typeof(Station))
+                    foreach (var u in Selection)
                     {
-                        Station uu = (Station)u;
-                        uu.NeedUpdate = true;
-                        uu.Location = new Point(uu.Location.X - (SelectionStart.X - e.X), uu.Location.Y - (SelectionStart.Y - e.Y));
+                        if (u.GetType() == typeof(Station))
+                        {
+                            Station uu = (Station)u;
+                            uu.NeedUpdate = true;
+                            uu.Location = new Point(uu.Location.X - (SelectionStart.X - e.X), uu.Location.Y - (SelectionStart.Y - e.Y));
+                        }
+
+                        if (u.GetType() == typeof(TextField))
+                        {
+                            TextField uu = (TextField)u;
+                            uu.NeedUpdate = true;
+                            uu.Location = new Point(uu.Location.X - (SelectionStart.X - e.X), uu.Location.Y - (SelectionStart.Y - e.Y));
+                        }
+
+                        if (u.GetType() == typeof(Line))
+                        {
+                            Line uu = (Line)u;
+                            uu.NeedUpdate = true;
+                            uu.StartPoint = new Point(uu.StartPoint.X - (SelectionStart.X - e.X), uu.StartPoint.Y - (SelectionStart.Y - e.Y));
+                            uu.EndPoint = new Point(uu.EndPoint.X - (SelectionStart.X - e.X), uu.EndPoint.Y - (SelectionStart.Y - e.Y));
+                        }
                     }
 
-                    if (u.GetType() == typeof(TextField))
-                    {
-                        TextField uu = (TextField)u;
-                        uu.NeedUpdate = true;
-                        uu.Location = new Point(uu.Location.X - (SelectionStart.X - e.X), uu.Location.Y - (SelectionStart.Y - e.Y));
-                    }
 
-                    if (u.GetType() == typeof(Line))
-                    {
-                        Line uu = (Line)u;
-                        uu.NeedUpdate = true;
-                        uu.StartPoint = new Point(uu.StartPoint.X - (SelectionStart.X - e.X), uu.StartPoint.Y - (SelectionStart.Y - e.Y));
-                        uu.EndPoint = new Point(uu.EndPoint.X - (SelectionStart.X - e.X), uu.EndPoint.Y - (SelectionStart.Y - e.Y));
-                    }
+
+
+                    SelectionStart = e.Location;
+                    UpdateLines(false, false);
                 }
 
-
-
-
-                SelectionStart = e.Location;
-                UpdateLines(false, false);
+                info1.Visible = false;
             }
-
-            info1.Visible = false;
         }
 
         private void DOWN(object sender, MouseEventArgs e)
