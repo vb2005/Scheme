@@ -195,11 +195,19 @@ namespace PowerLine
                         if (!Full)
                             // if (panel1.Controls[i].Tag.GetType() == typeof(TextField))
                             if (((TextField)panel1.Controls[i].Tag).NeedUpdate)
+                            {
+                                var n = panel1.Controls[i];
                                 panel1.Controls.RemoveAt(i--);
+                                n.Dispose();
+                            }
                             else
                             { }
                         else
+                        {
+                            var n = panel1.Controls[i ];
                             panel1.Controls.RemoveAt(i--);
+                            n.Dispose();
+                        }
 
             for (int i = 0; i < shapeContainer2.Shapes.Count; i++)
                 if (!Full)
@@ -207,7 +215,9 @@ namespace PowerLine
                     var tmp = shapeContainer2.Shapes.get_Item(i);
                     if (tmp.GetType() == typeof(RectangleShape))
                         if (((Station)((RectangleShape)tmp).Tag).NeedUpdate)
+                        {
                             shapeContainer2.Shapes.RemoveAt(i--);
+                        }
 
                     if (tmp.GetType() == typeof(LineShape))
                         if (((LineShape)tmp).Tag != null)
@@ -219,7 +229,9 @@ namespace PowerLine
                             shapeContainer2.Shapes.RemoveAt(i--);
                 }
                 else
+                {
                     shapeContainer2.Shapes.Clear();
+                }
 
             foreach (var s in Lines)
             {
@@ -265,7 +277,7 @@ namespace PowerLine
             shapeContainer2.BringToFront();
             //   shapeContainer2.PerformLayout();
             //   shapeContainer2.Refresh();
-
+            GC.Collect();
         }
 
 

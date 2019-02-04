@@ -383,6 +383,22 @@ namespace PowerLine
             }
         }
 
+        private void привязатьВсеЛинииКСеткеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var l in Lines)
+            {
+                if (l.EndPoint.X % 5 != 0) { l.EndPoint = new Point((int)Math.Round(l.EndPoint.X / 5d) * 5, l.EndPoint.Y); }
+                if (l.EndPoint.Y % 5 != 0) { l.EndPoint = new Point(l.EndPoint.X, (int)Math.Round(l.EndPoint.Y / 5d) * 5); }
+
+                if (l.StartPoint.X % 5 != 0) { l.StartPoint = new Point((int)Math.Round(l.StartPoint.X / 5d) * 5, l.StartPoint.Y); }
+                if (l.StartPoint.Y % 5 != 0) { l.StartPoint = new Point(l.StartPoint.X, (int)Math.Round(l.StartPoint.Y / 5d) * 5); }
+
+            }
+
+            UpdateLines(true, true);
+
+        }
+
 
 
        
