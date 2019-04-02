@@ -7641,22 +7641,6 @@
       <Width>1</Width>
       <ColorIndex>-1</ColorIndex>
       <StartPoint>
-        <X>810</X>
-        <Y>1800</Y>
-      </StartPoint>
-      <EndPoint>
-        <X>575</X>
-        <Y>1800</Y>
-      </EndPoint>
-      <NeedUpdate>false</NeedUpdate>
-    </Line>
-    <Line>
-      <Name />
-      <Description />
-      <Dash>false</Dash>
-      <Width>1</Width>
-      <ColorIndex>-1</ColorIndex>
-      <StartPoint>
         <X>870</X>
         <Y>1680</Y>
       </StartPoint>
@@ -13058,6 +13042,246 @@
       </EndPoint>
       <NeedUpdate>false</NeedUpdate>
     </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>4</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>2490</X>
+        <Y>1545</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>2745</X>
+        <Y>1545</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>505</X>
+        <Y>1885</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>505</X>
+        <Y>1790</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>505</X>
+        <Y>1790</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>355</X>
+        <Y>1790</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>355</X>
+        <Y>1790</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>355</X>
+        <Y>1880</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>285</X>
+        <Y>1880</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>285</X>
+        <Y>1790</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>285</X>
+        <Y>1790</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>125</X>
+        <Y>1790</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>125</X>
+        <Y>1790</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>125</X>
+        <Y>1890</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>4</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>100</X>
+        <Y>1850</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>145</X>
+        <Y>1850</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>4</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>265</X>
+        <Y>1830</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>375</X>
+        <Y>1830</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>4</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>485</X>
+        <Y>1835</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>590</X>
+        <Y>1835</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>570</X>
+        <Y>1800</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>810</X>
+        <Y>1800</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>570</X>
+        <Y>1800</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>570</X>
+        <Y>1870</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>265</X>
+        <Y>1110</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>265</X>
+        <Y>1175</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>3305</X>
+        <Y>590</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>3305</X>
+        <Y>55</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
+    <Line>
+      <Name />
+      <Description />
+      <Dash>false</Dash>
+      <Width>1</Width>
+      <ColorIndex>-1</ColorIndex>
+      <StartPoint>
+        <X>3260</X>
+        <Y>55</Y>
+      </StartPoint>
+      <EndPoint>
+        <X>3305</X>
+        <Y>55</Y>
+      </EndPoint>
+      <NeedUpdate>false</NeedUpdate>
+    </Line>
   </Lines>
   <Stations>
     <Station>
@@ -13267,7 +13491,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>212</X>
@@ -13303,7 +13527,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>362</X>
@@ -13327,7 +13551,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>473</X>
@@ -13351,7 +13575,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>572</X>
@@ -13387,7 +13611,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>724</X>
@@ -13687,7 +13911,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>363</X>
@@ -13699,11 +13923,11 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>362</X>
-        <Y>575</Y>
+        <Y>577</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -13727,9 +13951,9 @@
       <Description />
       <Location>
         <X>123</X>
-        <Y>761</Y>
+        <Y>748</Y>
       </Location>
-      <Angle>450</Angle>
+      <Angle>630</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -13751,9 +13975,9 @@
       <Description />
       <Location>
         <X>23</X>
-        <Y>762</Y>
+        <Y>749</Y>
       </Location>
-      <Angle>450</Angle>
+      <Angle>630</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -14101,7 +14325,7 @@
         <X>833</X>
         <Y>552</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -14113,7 +14337,7 @@
         <X>983</X>
         <Y>555</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -14191,7 +14415,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>623</X>
@@ -14203,7 +14427,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>692</X>
@@ -14215,7 +14439,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>623</X>
@@ -14227,7 +14451,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>692</X>
@@ -14245,7 +14469,7 @@
         <X>623</X>
         <Y>250</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -14257,7 +14481,7 @@
         <X>693</X>
         <Y>248</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15073,7 +15297,7 @@
         <X>1687</X>
         <Y>280</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15085,7 +15309,7 @@
         <X>1858</X>
         <Y>276</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15205,7 +15429,7 @@
         <X>1688</X>
         <Y>428</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15421,7 +15645,7 @@
         <X>1699</X>
         <Y>630</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15481,7 +15705,7 @@
         <X>1863</X>
         <Y>429</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -15799,7 +16023,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>3112</X>
@@ -15847,7 +16071,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>2974</X>
@@ -16705,7 +16929,7 @@
         <X>63</X>
         <Y>1406</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -16729,7 +16953,7 @@
         <X>9</X>
         <Y>1140</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -16777,7 +17001,7 @@
         <X>172</X>
         <Y>1130</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -16855,7 +17079,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>453</X>
@@ -16873,7 +17097,7 @@
         <X>338</X>
         <Y>1099</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -16885,7 +17109,7 @@
         <X>412</X>
         <Y>1099</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17023,7 +17247,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>552</X>
@@ -17087,7 +17311,7 @@
       <Description />
       <Location>
         <X>773</X>
-        <Y>855</Y>
+        <Y>848</Y>
       </Location>
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -17099,7 +17323,7 @@
       <Description />
       <Location>
         <X>818</X>
-        <Y>856</Y>
+        <Y>848</Y>
       </Location>
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -17317,13 +17541,13 @@
         <X>968</X>
         <Y>1022</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>1088</X>
@@ -17377,7 +17601,7 @@
         <X>1099</X>
         <Y>1177</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17425,7 +17649,7 @@
         <X>883</X>
         <Y>1175</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17437,13 +17661,13 @@
         <X>939</X>
         <Y>1175</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>988</X>
@@ -17509,7 +17733,7 @@
         <X>677</X>
         <Y>1170</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17545,7 +17769,7 @@
         <X>689</X>
         <Y>1345</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17581,7 +17805,7 @@
         <X>448</X>
         <Y>1416</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17629,7 +17853,7 @@
         <X>338</X>
         <Y>1255</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17671,7 +17895,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>272</X>
@@ -17689,7 +17913,7 @@
         <X>208</X>
         <Y>1406</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17779,7 +18003,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>true</State>
+      <State>false</State>
       <Description />
       <Location>
         <X>722</X>
@@ -17797,7 +18021,7 @@
         <X>674</X>
         <Y>1018</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -17899,7 +18123,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>33</X>
@@ -17911,7 +18135,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>122</X>
@@ -17923,7 +18147,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>212</X>
@@ -17983,7 +18207,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>212</X>
@@ -18001,13 +18225,13 @@
         <X>213</X>
         <Y>1648</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>123</X>
@@ -18025,13 +18249,13 @@
         <X>123</X>
         <Y>1613</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>32</X>
@@ -18049,13 +18273,13 @@
         <X>33</X>
         <Y>1612</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>407</X>
@@ -18067,7 +18291,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>473</X>
@@ -18079,23 +18303,11 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>408</X>
         <Y>1534</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station14</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>473</X>
-        <Y>1535</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -18109,13 +18321,13 @@
         <X>407</X>
         <Y>1571</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>623</X>
@@ -18127,7 +18339,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>623</X>
@@ -18139,7 +18351,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>622</X>
@@ -18175,7 +18387,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>713</X>
@@ -18187,7 +18399,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>623</X>
@@ -18205,7 +18417,7 @@
         <X>624</X>
         <Y>1704</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18217,13 +18429,13 @@
         <X>713</X>
         <Y>1705</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>712</X>
@@ -18235,7 +18447,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>832</X>
@@ -18247,7 +18459,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>877</X>
@@ -18259,7 +18471,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>927</X>
@@ -18271,7 +18483,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>833</X>
@@ -18301,13 +18513,13 @@
         <X>834</X>
         <Y>1700</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1057</X>
@@ -18319,7 +18531,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1103</X>
@@ -18331,7 +18543,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1057</X>
@@ -18361,13 +18573,13 @@
         <X>1058</X>
         <Y>1691</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1332</X>
@@ -18379,7 +18591,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1332</X>
@@ -18397,13 +18609,13 @@
         <X>1333</X>
         <Y>1707</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1452</X>
@@ -18415,7 +18627,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1538</X>
@@ -18427,7 +18639,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1498</X>
@@ -18445,13 +18657,13 @@
         <X>1498</X>
         <Y>1710</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1217</X>
@@ -18463,7 +18675,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1217</X>
@@ -18481,16 +18693,16 @@
         <X>1218</X>
         <Y>1180</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
-        <X>1427</X>
+        <X>1422</X>
         <Y>1150</Y>
       </Location>
       <Angle>90</Angle>
@@ -18511,7 +18723,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1428</X>
@@ -18529,13 +18741,13 @@
         <X>1429</X>
         <Y>1226</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1517</X>
@@ -18547,7 +18759,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1563</X>
@@ -18559,7 +18771,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1603</X>
@@ -18571,7 +18783,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1518</X>
@@ -18583,7 +18795,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1602</X>
@@ -18601,7 +18813,7 @@
         <X>1518</X>
         <Y>1227</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18613,13 +18825,13 @@
         <X>1604</X>
         <Y>1229</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1632</X>
@@ -18631,7 +18843,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1599</X>
@@ -18643,7 +18855,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1665</X>
@@ -18655,7 +18867,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1733</X>
@@ -18667,7 +18879,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1733</X>
@@ -18685,13 +18897,13 @@
         <X>1733</X>
         <Y>1221</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1802</X>
@@ -18709,13 +18921,13 @@
         <X>1803</X>
         <Y>1436</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1628</X>
@@ -18727,7 +18939,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1629</X>
@@ -18745,7 +18957,7 @@
         <X>1627</X>
         <Y>1675</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18823,7 +19035,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1833</X>
@@ -18835,7 +19047,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1869</X>
@@ -18847,7 +19059,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1902</X>
@@ -18859,7 +19071,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1833</X>
@@ -18877,7 +19089,7 @@
         <X>1834</X>
         <Y>1124</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18889,7 +19101,7 @@
         <X>1904</X>
         <Y>1123</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18901,7 +19113,7 @@
         <X>2022</X>
         <Y>1127</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -18913,13 +19125,13 @@
         <X>2084</X>
         <Y>1123</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2023</X>
@@ -18931,7 +19143,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2084</X>
@@ -18943,7 +19155,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2022</X>
@@ -18955,7 +19167,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2083</X>
@@ -18967,7 +19179,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2237</X>
@@ -18979,7 +19191,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2303</X>
@@ -18991,7 +19203,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2378</X>
@@ -19003,7 +19215,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2237</X>
@@ -19015,7 +19227,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2302</X>
@@ -19027,7 +19239,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2378</X>
@@ -19039,7 +19251,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2588</X>
@@ -19051,7 +19263,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2588</X>
@@ -19063,7 +19275,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2653</X>
@@ -19075,7 +19287,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2653</X>
@@ -19087,7 +19299,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2433</X>
@@ -19099,7 +19311,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2467</X>
@@ -19111,7 +19323,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2532</X>
@@ -19123,7 +19335,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2433</X>
@@ -19135,7 +19347,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2533</X>
@@ -19153,7 +19365,7 @@
         <X>2433</X>
         <Y>1074</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -19165,13 +19377,13 @@
         <X>2533</X>
         <Y>1073</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2928</X>
@@ -19183,7 +19395,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3098</X>
@@ -19219,7 +19431,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2927</X>
@@ -19231,11 +19443,11 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
-        <X>3099</X>
-        <Y>1111</Y>
+        <X>3098</X>
+        <Y>1113</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -19247,9 +19459,9 @@
       <Description />
       <Location>
         <X>2927</X>
-        <Y>1137</Y>
+        <Y>1148</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -19259,15 +19471,15 @@
       <Description />
       <Location>
         <X>3097</X>
-        <Y>1135</Y>
+        <Y>1149</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2923</X>
@@ -19279,7 +19491,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3098</X>
@@ -19303,7 +19515,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2947</X>
@@ -19315,7 +19527,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3093</X>
@@ -19327,7 +19539,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2914</X>
@@ -19339,7 +19551,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2937</X>
@@ -19351,7 +19563,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2958</X>
@@ -19363,7 +19575,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2979</X>
@@ -19375,7 +19587,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3057</X>
@@ -19387,7 +19599,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3078</X>
@@ -19399,7 +19611,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3098</X>
@@ -19411,7 +19623,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3122</X>
@@ -19423,7 +19635,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2995</X>
@@ -19435,7 +19647,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3250</X>
@@ -19447,7 +19659,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3308</X>
@@ -19459,7 +19671,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3393</X>
@@ -19471,7 +19683,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3548</X>
@@ -19483,7 +19695,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3308</X>
@@ -19495,7 +19707,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3392</X>
@@ -19507,7 +19719,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3548</X>
@@ -19519,7 +19731,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3307</X>
@@ -19531,7 +19743,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3393</X>
@@ -19543,7 +19755,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3547</X>
@@ -19579,7 +19791,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3263</X>
@@ -19591,7 +19803,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3332</X>
@@ -19603,7 +19815,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3368</X>
@@ -19615,7 +19827,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3503</X>
@@ -19627,7 +19839,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3538</X>
@@ -19639,7 +19851,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3573</X>
@@ -19651,7 +19863,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3609</X>
@@ -19663,7 +19875,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3263</X>
@@ -19675,7 +19887,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3288</X>
@@ -19687,7 +19899,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3332</X>
@@ -19699,7 +19911,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3367</X>
@@ -19735,7 +19947,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3402</X>
@@ -19747,7 +19959,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3463</X>
@@ -19759,7 +19971,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3502</X>
@@ -19771,7 +19983,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3538</X>
@@ -19783,7 +19995,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3573</X>
@@ -19795,7 +20007,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3607</X>
@@ -19807,7 +20019,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3262</X>
@@ -19819,7 +20031,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3332</X>
@@ -19831,7 +20043,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3367</X>
@@ -19843,7 +20055,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3502</X>
@@ -19855,7 +20067,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3538</X>
@@ -19867,7 +20079,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3572</X>
@@ -19879,7 +20091,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3607</X>
@@ -20131,7 +20343,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3338</X>
@@ -20143,7 +20355,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3503</X>
@@ -20185,13 +20397,13 @@
         <X>3337</X>
         <Y>1236</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3519</X>
@@ -20209,13 +20421,13 @@
         <X>3517</X>
         <Y>1245</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>630</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3392</X>
@@ -20227,7 +20439,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3473</X>
@@ -20239,7 +20451,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3393</X>
@@ -20251,7 +20463,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3472</X>
@@ -20299,7 +20511,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3337</X>
@@ -20311,7 +20523,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3519</X>
@@ -20323,7 +20535,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3337</X>
@@ -20335,7 +20547,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>3517</X>
@@ -20353,7 +20565,7 @@
         <X>3337</X>
         <Y>1575</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>630</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20365,7 +20577,7 @@
         <X>3518</X>
         <Y>1579</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20387,7 +20599,7 @@
       <Description />
       <Location>
         <X>3052</X>
-        <Y>1116</Y>
+        <Y>1122</Y>
       </Location>
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -20398,8 +20610,8 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2967</X>
-        <Y>1120</Y>
+        <X>2968</X>
+        <Y>1124</Y>
       </Location>
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -20446,8 +20658,8 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2967</X>
-        <Y>1578</Y>
+        <X>2968</X>
+        <Y>1584</Y>
       </Location>
       <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -20479,7 +20691,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2294</X>
@@ -20491,7 +20703,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2472</X>
@@ -20623,7 +20835,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2292</X>
@@ -20635,7 +20847,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2473</X>
@@ -20677,7 +20889,7 @@
         <X>2292</X>
         <Y>1863</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20689,7 +20901,7 @@
         <X>2473</X>
         <Y>1866</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20719,7 +20931,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2567</X>
@@ -20731,7 +20943,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2739</X>
@@ -20743,7 +20955,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2567</X>
@@ -20755,7 +20967,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2737</X>
@@ -20773,7 +20985,7 @@
         <X>2567</X>
         <Y>1870</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20785,7 +20997,7 @@
         <X>2737</X>
         <Y>1868</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -20806,7 +21018,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>1926</X>
+        <X>1920</X>
         <Y>1418</Y>
       </Location>
       <Angle>-0</Angle>
@@ -20818,7 +21030,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>1982</X>
+        <X>1973</X>
         <Y>1418</Y>
       </Location>
       <Angle>-0</Angle>
@@ -20830,7 +21042,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>1983</X>
+        <X>1975</X>
         <Y>1347</Y>
       </Location>
       <Angle>-0</Angle>
@@ -20842,8 +21054,8 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2069</X>
-        <Y>1347</Y>
+        <X>2066</X>
+        <Y>1346</Y>
       </Location>
       <Angle>0</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -20854,7 +21066,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2071</X>
+        <X>2065</X>
         <Y>1418</Y>
       </Location>
       <Angle>0</Angle>
@@ -20866,7 +21078,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2128</X>
+        <X>2121</X>
         <Y>1348</Y>
       </Location>
       <Angle>0</Angle>
@@ -20878,7 +21090,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>2128</X>
+        <X>2121</X>
         <Y>1418</Y>
       </Location>
       <Angle>0</Angle>
@@ -20887,22 +21099,10 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1942</X>
-        <Y>1358</Y>
-      </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station11</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>1999</X>
         <Y>1359</Y>
       </Location>
       <Angle>90</Angle>
@@ -20911,7 +21111,19 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1997</X>
+        <Y>1360</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
       <Description />
       <Location>
         <X>2087</X>
@@ -20923,7 +21135,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2142</X>
@@ -20935,7 +21147,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1943</X>
@@ -20947,7 +21159,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1997</X>
@@ -20959,7 +21171,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2087</X>
@@ -20971,7 +21183,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2143</X>
@@ -20995,7 +21207,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1943</X>
@@ -21007,7 +21219,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1997</X>
@@ -21019,7 +21231,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2088</X>
@@ -21031,7 +21243,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2143</X>
@@ -21043,7 +21255,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1998</X>
@@ -21055,7 +21267,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1943</X>
@@ -21067,7 +21279,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2143</X>
@@ -21079,7 +21291,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2144</X>
@@ -21091,7 +21303,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1998</X>
@@ -21109,7 +21321,7 @@
         <X>1998</X>
         <Y>1523</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -21121,25 +21333,13 @@
         <X>2143</X>
         <Y>1525</Y>
       </Location>
-      <Angle>90</Angle>
-      <NeedUpdate>false</NeedUpdate>
-    </Station>
-    <Station>
-      <Size>75</Size>
-      <Type>Station30</Type>
-      <State>false</State>
-      <Description />
-      <Location>
-        <X>1433</X>
-        <Y>1032</Y>
-      </Location>
-      <Angle>-0</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1208</X>
@@ -21151,7 +21351,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1209</X>
@@ -21169,7 +21369,7 @@
         <X>1208</X>
         <Y>847</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -21199,7 +21399,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1358</X>
@@ -21211,7 +21411,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1383</X>
@@ -21223,7 +21423,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1382</X>
@@ -21241,13 +21441,13 @@
         <X>1382</X>
         <Y>849</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1468</X>
@@ -21259,7 +21459,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1493</X>
@@ -21271,7 +21471,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1468</X>
@@ -21307,7 +21507,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1535</X>
@@ -21319,7 +21519,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1580</X>
@@ -21343,7 +21543,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station14</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1643</X>
@@ -21361,7 +21561,7 @@
         <X>1468</X>
         <Y>844</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
@@ -21373,13 +21573,13 @@
         <X>1642</X>
         <Y>847</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1773</X>
@@ -21391,7 +21591,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1828</X>
@@ -21403,7 +21603,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1883</X>
@@ -21418,7 +21618,7 @@
       <State>false</State>
       <Description />
       <Location>
-        <X>1923</X>
+        <X>1915</X>
         <Y>743</Y>
       </Location>
       <Angle>-0</Angle>
@@ -21427,7 +21627,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1937</X>
@@ -21439,11 +21639,11 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2078</X>
-        <Y>753</Y>
+        <Y>757</Y>
       </Location>
       <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
@@ -21451,7 +21651,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2133</X>
@@ -21463,7 +21663,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2188</X>
@@ -21475,7 +21675,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2243</X>
@@ -21487,7 +21687,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1773</X>
@@ -21499,7 +21699,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1828</X>
@@ -21511,7 +21711,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1883</X>
@@ -21523,7 +21723,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1938</X>
@@ -21535,7 +21735,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2078</X>
@@ -21547,7 +21747,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2132</X>
@@ -21559,7 +21759,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station13</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2187</X>
@@ -21571,7 +21771,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station12</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>2243</X>
@@ -21607,7 +21807,7 @@
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1797</X>
@@ -21625,13 +21825,13 @@
         <X>1798</X>
         <Y>900</Y>
       </Location>
-      <Angle>90</Angle>
+      <Angle>270</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
     <Station>
       <Size>75</Size>
       <Type>Station11</Type>
-      <State>false</State>
+      <State>true</State>
       <Description />
       <Location>
         <X>1882</X>
@@ -21674,6 +21874,1566 @@
         <Y>888</Y>
       </Location>
       <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>393</X>
+        <Y>580</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1750</X>
+        <Y>742</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1803</X>
+        <Y>743</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1862</X>
+        <Y>743</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1753</X>
+        <Y>812</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1805</X>
+        <Y>812</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1861</X>
+        <Y>813</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1917</X>
+        <Y>813</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2055</X>
+        <Y>742</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2112</X>
+        <Y>742</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2164</X>
+        <Y>742</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2221</X>
+        <Y>742</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2057</X>
+        <Y>813</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2110</X>
+        <Y>812</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2167</X>
+        <Y>812</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station23</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2219</X>
+        <Y>813</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station30</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3093</X>
+        <Y>826</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2922</X>
+        <Y>1269</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3097</X>
+        <Y>1272</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1304</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3099</X>
+        <Y>1308</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1423</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3099</X>
+        <Y>1420</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1459</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3098</X>
+        <Y>1458</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1386</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3099</X>
+        <Y>1385</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1536</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3103</X>
+        <Y>1535</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2923</X>
+        <Y>1570</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3102</X>
+        <Y>1570</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2986</X>
+        <Y>1403</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3036</X>
+        <Y>1403</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2988</X>
+        <Y>1553</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3030</X>
+        <Y>1553</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2987</X>
+        <Y>1253</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3030</X>
+        <Y>1253</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3401</X>
+        <Y>1358</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3444</X>
+        <Y>1359</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3342</X>
+        <Y>1338</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3512</X>
+        <Y>1339</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3338</X>
+        <Y>1204</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3343</X>
+        <Y>1377</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>3513</X>
+        <Y>1377</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3343</X>
+        <Y>1409</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3514</X>
+        <Y>1409</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2924</X>
+        <Y>1605</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3103</X>
+        <Y>1604</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2850</X>
+        <Y>1773</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station13</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2900</X>
+        <Y>1772</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2957</X>
+        <Y>1773</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3058</X>
+        <Y>1772</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2497</X>
+        <Y>1028</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2652</X>
+        <Y>1300</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1293</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1348</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1313</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station8</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1334</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2513</X>
+        <Y>1283</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station8</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2569</X>
+        <Y>1283</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2336</X>
+        <Y>1317</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2378</X>
+        <Y>1355</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2302</X>
+        <Y>1374</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2302</X>
+        <Y>1407</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1410</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2483</X>
+        <Y>1443</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2638</X>
+        <Y>1389</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2592</X>
+        <Y>1428</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2637</X>
+        <Y>1422</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2593</X>
+        <Y>1463</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>1903</X>
+        <Y>1089</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station8</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2454</X>
+        <Y>1507</Y>
+      </Location>
+      <Angle>-0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2272</X>
+        <Y>1493</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2521</X>
+        <Y>1528</Y>
+      </Location>
+      <Angle>0</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2467</X>
+        <Y>1576</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2273</X>
+        <Y>1559</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station12</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2588</X>
+        <Y>1585</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station12</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2718</X>
+        <Y>1589</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station12</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2587</X>
+        <Y>1660</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station12</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2627</X>
+        <Y>1659</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station12</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>2719</X>
+        <Y>1660</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2468</X>
+        <Y>1612</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2273</X>
+        <Y>1596</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>88</X>
+        <Y>1794</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>248</X>
+        <Y>1776</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>318</X>
+        <Y>1776</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>468</X>
+        <Y>1778</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>532</X>
+        <Y>1778</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>89</X>
+        <Y>1831</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>88</X>
+        <Y>1868</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>318</X>
+        <Y>1812</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>248</X>
+        <Y>1850</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station14</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>468</X>
+        <Y>1814</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>532</X>
+        <Y>1814</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station10</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>469</X>
+        <Y>1851</Y>
+      </Location>
+      <Angle>270</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>473</X>
+        <Y>1534</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>true</State>
+      <Description />
+      <Location>
+        <X>248</X>
+        <Y>1811</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>213</X>
+        <Y>107</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>362</X>
+        <Y>105</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>473</X>
+        <Y>97</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>572</X>
+        <Y>100</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>722</X>
+        <Y>94</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>762</X>
+        <Y>508</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>393</X>
+        <Y>612</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>78</X>
+        <Y>1105</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>78</X>
+        <Y>1138</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>228</X>
+        <Y>1090</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>228</X>
+        <Y>1124</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>553</X>
+        <Y>941</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>453</X>
+        <Y>1095</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>338</X>
+        <Y>940</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>273</X>
+        <Y>1401</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>473</X>
+        <Y>1571</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>723</X>
+        <Y>1011</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>718</X>
+        <Y>1171</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1088</X>
+        <Y>1019</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>988</X>
+        <Y>1170</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1378</X>
+        <Y>1224</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>928</X>
+        <Y>1700</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1102</X>
+        <Y>1697</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1668</X>
+        <Y>1673</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station11</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1667</X>
+        <Y>1638</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>1942</X>
+        <Y>1505</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2638</X>
+        <Y>1459</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>318</X>
+        <Y>1847</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>533</X>
+        <Y>1846</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2973</X>
+        <Y>273</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station32</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>3113</X>
+        <Y>274</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2717</X>
+        <Y>784</Y>
+      </Location>
+      <Angle>90</Angle>
+      <NeedUpdate>false</NeedUpdate>
+    </Station>
+    <Station>
+      <Size>75</Size>
+      <Type>Station9</Type>
+      <State>false</State>
+      <Description />
+      <Location>
+        <X>2533</X>
+        <Y>786</Y>
+      </Location>
+      <Angle>90</Angle>
       <NeedUpdate>false</NeedUpdate>
     </Station>
   </Stations>
@@ -21857,7 +23617,7 @@
 400/250 кВА  </Description>
       <Location>
         <X>1010</X>
-        <Y>287</Y>
+        <Y>268</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21879,7 +23639,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>940</X>
-        <Y>614</Y>
+        <Y>589</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21890,7 +23650,7 @@
 250/250 кВА  </Description>
       <Location>
         <X>1225</X>
-        <Y>547</Y>
+        <Y>523</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21901,7 +23661,7 @@
 250/400 кВА  </Description>
       <Location>
         <X>1285</X>
-        <Y>290</Y>
+        <Y>269</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21912,7 +23672,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>1540</X>
-        <Y>290</Y>
+        <Y>268</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21923,7 +23683,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>1505</X>
-        <Y>547</Y>
+        <Y>524</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21933,7 +23693,7 @@
 250/400 кВА  </Description>
       <Location>
         <X>1810</X>
-        <Y>335</Y>
+        <Y>324</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21943,7 +23703,7 @@
 250/400 кВА  </Description>
       <Location>
         <X>1813</X>
-        <Y>485</Y>
+        <Y>474</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21954,7 +23714,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>2190</X>
-        <Y>494</Y>
+        <Y>463</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21965,7 +23725,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>2174</X>
-        <Y>344</Y>
+        <Y>321</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21976,7 +23736,7 @@
 250/400 кВА  </Description>
       <Location>
         <X>1825</X>
-        <Y>696</Y>
+        <Y>674</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -21986,7 +23746,7 @@
 Школа №6  </Description>
       <Location>
         <X>2217</X>
-        <Y>683</Y>
+        <Y>672</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -22166,7 +23926,7 @@
 400/400 кВА  </Description>
       <Location>
         <X>3085</X>
-        <Y>340</Y>
+        <Y>323</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -22723,7 +24483,7 @@
 560/630 кВА  </Description>
       <Location>
         <X>2526</X>
-        <Y>1135</Y>
+        <Y>1117</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
@@ -23184,6 +24944,322 @@
       <Location>
         <X>2030</X>
         <Y>930</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-1  </Description>
+      <Location>
+        <X>1780</X>
+        <Y>230</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-2  </Description>
+      <Location>
+        <X>1840</X>
+        <Y>231</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-1  </Description>
+      <Location>
+        <X>1775</X>
+        <Y>380</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-2  </Description>
+      <Location>
+        <X>1835</X>
+        <Y>380</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-2  </Description>
+      <Location>
+        <X>1785</X>
+        <Y>585</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-1  </Description>
+      <Location>
+        <X>1840</X>
+        <Y>585</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-2  </Description>
+      <Location>
+        <X>1500</X>
+        <Y>175</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР-1  </Description>
+      <Location>
+        <X>1560</X>
+        <Y>175</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЦН-408  
+400/400 кВА  </Description>
+      <Location>
+        <X>2494</X>
+        <Y>822</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР №2  </Description>
+      <Location>
+        <X>3020</X>
+        <Y>1415</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР №1  </Description>
+      <Location>
+        <X>3090</X>
+        <Y>1415</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР №2  </Description>
+      <Location>
+        <X>3010</X>
+        <Y>1565</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>СР №1  </Description>
+      <Location>
+        <X>3090</X>
+        <Y>1565</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП-14  
+1000/1000 кВА  </Description>
+      <Location>
+        <X>3045</X>
+        <Y>1350</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП-21  
+1000/1000 кВА  </Description>
+      <Location>
+        <X>3053</X>
+        <Y>1503</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП-16  
+1000/1000 кВА  </Description>
+      <Location>
+        <X>3057</X>
+        <Y>1647</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>Ф №6  
+Тяг. Сасово  </Description>
+      <Location>
+        <X>3105</X>
+        <Y>1780</Y>
+      </Location>
+      <Size>12</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КРУН  </Description>
+      <Location>
+        <X>2946</X>
+        <Y>1770</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП СС-217  
+База  </Description>
+      <Location>
+        <X>2341</X>
+        <Y>1477</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП СС-1601  
+МСО  </Description>
+      <Location>
+        <X>2520</X>
+        <Y>1511</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП СС-1602  
+Ушаково </Description>
+      <Location>
+        <X>2665</X>
+        <Y>1525</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП СС-725  
+ул. Пушкина  
+160 кВА  </Description>
+      <Location>
+        <X>2314</X>
+        <Y>1675</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП  
+Очистные  
+100 кВА  </Description>
+      <Location>
+        <X>2509</X>
+        <Y>1692</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>РП  
+Городок  </Description>
+      <Location>
+        <X>2690</X>
+        <Y>1630</Y>
+      </Location>
+      <Size>10</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП СС-707  
+Н-Прибоя  
+400 кВА  </Description>
+      <Location>
+        <X>553</X>
+        <Y>1917</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>ЗТП СС-708  
+Пищекомбинат  
+250 кВА  </Description>
+      <Location>
+        <X>329</X>
+        <Y>1925</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>КТП СС-709  
+Милиция  
+250 кВА  </Description>
+      <Location>
+        <X>122</X>
+        <Y>1948</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №2  </Description>
+      <Location>
+        <X>1020</X>
+        <Y>805</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №1  </Description>
+      <Location>
+        <X>1070</X>
+        <Y>805</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №2  </Description>
+      <Location>
+        <X>1290</X>
+        <Y>800</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №2  </Description>
+      <Location>
+        <X>1560</X>
+        <Y>800</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №1  </Description>
+      <Location>
+        <X>1615</X>
+        <Y>801</Y>
+      </Location>
+      <Size>7</Size>
+      <NeedUpdate>false</NeedUpdate>
+    </TextField>
+    <TextField>
+      <Description>CР №1  </Description>
+      <Location>
+        <X>1350</X>
+        <Y>800</Y>
       </Location>
       <Size>7</Size>
       <NeedUpdate>false</NeedUpdate>
