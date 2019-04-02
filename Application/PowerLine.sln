@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerLine", "PowerLine.csproj", "{DA592959-802E-481D-A2B7-6C541D5D89CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "..\Updater\Updater.csproj", "{D5EC3EB6-26D6-44A9-9B29-2D801F69D037}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{8A1B4274-7105-4C87-B30B-D77C9A9C4E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,12 @@ Global
 		{DA592959-802E-481D-A2B7-6C541D5D89CB}.Debug|x86.Build.0 = Debug|x86
 		{DA592959-802E-481D-A2B7-6C541D5D89CB}.Release|x86.ActiveCfg = Release|x86
 		{DA592959-802E-481D-A2B7-6C541D5D89CB}.Release|x86.Build.0 = Release|x86
+		{D5EC3EB6-26D6-44A9-9B29-2D801F69D037}.Debug|x86.ActiveCfg = Debug|x86
+		{D5EC3EB6-26D6-44A9-9B29-2D801F69D037}.Debug|x86.Build.0 = Debug|x86
+		{D5EC3EB6-26D6-44A9-9B29-2D801F69D037}.Release|x86.ActiveCfg = Release|x86
+		{D5EC3EB6-26D6-44A9-9B29-2D801F69D037}.Release|x86.Build.0 = Release|x86
+		{8A1B4274-7105-4C87-B30B-D77C9A9C4E13}.Debug|x86.ActiveCfg = Debug
+		{8A1B4274-7105-4C87-B30B-D77C9A9C4E13}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -61,7 +61,8 @@
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.panel1);
             this.Name = "ZoomForm";
-            this.Text = "ZoomForm";
+            this.Text = "Масштабированная схема";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

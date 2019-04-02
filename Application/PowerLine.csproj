@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PowerLine</RootNamespace>
-    <AssemblyName>PowerLine</AssemblyName>
+    <AssemblyName>Application</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -54,16 +54,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Программа\Administration and Zoom.cs" />
+    <Compile Include="Формы дополн\AdminInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\AdminInfo.Designer.cs">
+      <DependentUpon>AdminInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\Recovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\Recovery.Designer.cs">
+      <DependentUpon>Recovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы дополн\EnterPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы дополн\EnterPassword.Designer.cs">
+      <DependentUpon>EnterPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Классы\UDPServer.cs" />
-    <Compile Include="Программа\Canvas.cs">
+    <Compile Include="Программа\Form1.Canvas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Программа\Objects.cs">
+    <Compile Include="Программа\Form1.Objects.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Формы дополн\CorrectPosition.cs">
@@ -80,12 +98,6 @@
     </Compile>
     <Compile Include="Классы\TextFiled.cs" />
     <Compile Include="Классы\Properties.cs" />
-    <Compile Include="Программа\About.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Программа\About.Designer.cs">
-      <DependentUpon>About.cs</DependentUpon>
-    </Compile>
     <Compile Include="Формы дополн\SetStation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,19 +111,7 @@
     <Compile Include="Программа\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Формы дополн\Info.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Формы дополн\Info.Designer.cs">
-      <DependentUpon>Info.cs</DependentUpon>
-    </Compile>
     <Compile Include="Классы\Line.cs" />
-    <Compile Include="Формы дополн\PrintMode.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Формы дополн\PrintMode.Designer.cs">
-      <DependentUpon>PrintMode.cs</DependentUpon>
-    </Compile>
     <Compile Include="Программа\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Формы дополн\SetLine.cs">
@@ -126,26 +126,26 @@
     <Compile Include="Формы дополн\ZoomForm.Designer.cs">
       <DependentUpon>ZoomForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Формы дополн\AdminInfo.resx">
+      <DependentUpon>AdminInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\Recovery.resx">
+      <DependentUpon>Recovery.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Формы дополн\CorrectPosition.resx">
       <DependentUpon>CorrectPosition.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Формы дополн\EnterPassword.resx">
+      <DependentUpon>EnterPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Формы дополн\SetText.resx">
       <DependentUpon>SetText.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Программа\About.resx">
-      <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Формы дополн\SetStation.resx">
       <DependentUpon>SetStation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Программа\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Формы дополн\Info.resx">
-      <DependentUpon>Info.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Формы дополн\PrintMode.resx">
-      <DependentUpon>PrintMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -158,7 +158,9 @@
     <EmbeddedResource Include="Формы дополн\ZoomForm.resx">
       <DependentUpon>ZoomForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Программа\app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -280,6 +282,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\l2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

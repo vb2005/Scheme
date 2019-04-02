@@ -224,6 +224,9 @@ namespace PowerLine
                     pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.l2, Angle, true);
                     break;
 
+                case StationType.Station32:
+                    pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.x30, Angle+270, true);
+                    break;
 
              //   case StationType.Station30:
              //       pb.BackgroundImage = RotateImage(PowerLine.Properties.Resources.t8, Angle, true);
@@ -345,6 +348,8 @@ namespace PowerLine
         Station31 = 30,
         // Line 2
         Station32 = 31,
+        // РВП
+        Station33 = 32,
 
     }
 }

@@ -16,13 +16,11 @@ namespace PowerLine
         public List<Station> Stations { get; set; }
         public List<TextField> Texts { get; set; }
         public string hash;
-        public string City { get; set; }
 
         public Properties_() {
             Lines = new List<Line>();
             Stations = new List<Station>();
             Texts = new List<TextField>();
-            City = "zakharovo";
             hash = "0";
         }
 

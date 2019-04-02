@@ -8,15 +8,20 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic.PowerPacks;
 using System.Drawing.Printing;
 using System.Drawing.Drawing2D;
-using PowerLine.Классы;
 using System.Net;
 using PowerLine.Формы_дополн;
 namespace PowerLine
 {
     public partial class Form1 : Form
     {
-        // Точки для привязки объектов и линий
-     //   public List<Point> Locations;
+        /*TODO: 
+         * Сделать обновление схем
+         * Проверить работу режима №2
+         * 
+         */
+
+        //Точки для привязки объектов и линий
+        public List<Point> Locations;
 
         // Текущий инстанс формы
         public static Form1 Instance;
@@ -37,18 +42,19 @@ namespace PowerLine
         // Форма вывода масштабированного объекта
         private ZoomForm fz;
 
+        // Режим пользователя
+        public bool UserMode = true;
+
+        // Ok
         public Form1()
         {
             InitializeComponent();
-
             fz = new ZoomForm(new Bitmap(1,1));
             fz.Click2 += new MouseEventHandler(fz_Click2);
 
             Instance = this;
-            ds = new DataRecievedHandler(DataRecieved);
             Link(false);
             LoadWeather();
-
         }
 
         /// <summary>
@@ -69,11 +75,21 @@ namespace PowerLine
         public void LoadWeather() {
             try
             {
-                Bitmap bmp = new Bitmap((new WebClient()).OpenRead("https://info.weather.yandex.net/" + Properties_.GetInstance().City + "/4_white.ru.png?domain=ru"));
-               // pictureBox1.Image = bmp;
+                string city = Properties.Settings.Default["Weather"].ToString();
+                if (city != "")
+                {
+                    Bitmap bmp = new Bitmap((new WebClient()).OpenRead("https://info.weather.yandex.net/" + city + "/4_white.ru.png?domain=ru"));
+                    pictureBox1.Image = bmp;
+                    pictureBox1.Visible = true;
+                    pictureBox1.BringToFront();
+                }
+                else {
+                    pictureBox1.Visible = false;
+                }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                pictureBox1.Visible = false;
             }
         }
 
@@ -107,6 +123,7 @@ namespace PowerLine
                     UpdateLines(false,true);
                 }
             }
+
             private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
             {
                 try
@@ -123,6 +140,7 @@ namespace PowerLine
                 }
 
             }
+
             private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
             {
                 try
@@ -142,10 +160,12 @@ namespace PowerLine
                     MessageBox.Show("Невозможно открыть файл по данному пути!", "Ошибка чтения файла", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+
             private void выходToolStripMenuItem_Click(object sender, EventArgs e)
             {
                 this.Close();
             }
+
             private void печатьToolStripMenuItem_Click(object sender, EventArgs e)
             {
                 PrintDialog pd = new PrintDialog();
@@ -180,42 +200,45 @@ namespace PowerLine
         #endregion
 
         #region Управление режимом работы
-        int _mode = 0;
+        int _mode = 1;
         private void ModeEvt(object sender, EventArgs e)
         {
-            if (sender == редактированиеСхемыToolStripMenuItem) _mode = 0;
-            if (sender == редактирвованиеОбъектовToolStripMenuItem) _mode = 1;
-            if (sender == режимПросмотраToolStripMenuItem) _mode = 2;
-            if (sender == режимПереносаToolStripMenuItem) _mode = 4;
-
-            switch (_mode)
+            if (!UserMode)
             {
-                case 1:
-                    редактированиеСхемыToolStripMenuItem.Checked = false;
-                    редактирвованиеОбъектовToolStripMenuItem.Checked = true;
-                    режимПросмотраToolStripMenuItem.Checked = false;
-                    режимПереносаToolStripMenuItem.Checked = false;
-                    break;
-                case 2:
-                    редактированиеСхемыToolStripMenuItem.Checked = false;
-                    редактирвованиеОбъектовToolStripMenuItem.Checked = false;
-                    режимПереносаToolStripMenuItem.Checked = false;
-                    режимПросмотраToolStripMenuItem.Checked = true;
-                    break;
-                case 4:
-                    редактированиеСхемыToolStripMenuItem.Checked = false;
-                    редактирвованиеОбъектовToolStripMenuItem.Checked = false;
-                    режимПереносаToolStripMenuItem.Checked = true;
-                    режимПросмотраToolStripMenuItem.Checked = false;
-                    break;
-                default:
-                    редактированиеСхемыToolStripMenuItem.Checked = true;
-                    редактирвованиеОбъектовToolStripMenuItem.Checked = false;
-                    режимПереносаToolStripMenuItem.Checked = false;
-                    режимПросмотраToolStripMenuItem.Checked = false;
-                    break;
+                if (sender == редактированиеСхемыToolStripMenuItem) _mode = 0;
+                if (sender == редактирвованиеОбъектовToolStripMenuItem) _mode = 1;
+                if (sender == режимПросмотраToolStripMenuItem) _mode = 2;
+                if (sender == режимПереносаToolStripMenuItem) _mode = 4;
+
+                switch (_mode)
+                {
+                    case 1:
+                        редактированиеСхемыToolStripMenuItem.Checked = false;
+                        редактирвованиеОбъектовToolStripMenuItem.Checked = true;
+                        режимПросмотраToolStripMenuItem.Checked = false;
+                        режимПереносаToolStripMenuItem.Checked = false;
+                        break;
+                    case 2:
+                        редактированиеСхемыToolStripMenuItem.Checked = false;
+                        редактирвованиеОбъектовToolStripMenuItem.Checked = false;
+                        режимПереносаToolStripMenuItem.Checked = false;
+                        режимПросмотраToolStripMenuItem.Checked = true;
+                        break;
+                    case 4:
+                        редактированиеСхемыToolStripMenuItem.Checked = false;
+                        редактирвованиеОбъектовToolStripMenuItem.Checked = false;
+                        режимПереносаToolStripMenuItem.Checked = true;
+                        режимПросмотраToolStripMenuItem.Checked = false;
+                        break;
+                    default:
+                        редактированиеСхемыToolStripMenuItem.Checked = true;
+                        редактирвованиеОбъектовToolStripMenuItem.Checked = false;
+                        режимПереносаToolStripMenuItem.Checked = false;
+                        режимПросмотраToolStripMenuItem.Checked = false;
+                        break;
+                }
+                UpdateLines(true, true);
             }
-            UpdateLines(true, true);
         }
         #endregion
 
@@ -224,22 +247,7 @@ namespace PowerLine
 
         #region Net&Pro
 
-        private void обновитьСхемыНаВсехУстройствахToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-          //  Properties_.Send();
-        }
-
-        public void DataRecieved(string IP, Properties_ pr)
-        {
-            if (MessageBox.Show("Получены новые данные с устройства: " + IP + ". Выполнить обновление?", "Обновление данных", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
-            {
-                Properties_._instance = pr;
-                Form1.Instance.Link(false);
-            }
-        }
-
-        public delegate void DataRecievedHandler(string IP, Properties_ pr);
-        public DataRecievedHandler ds;
+      
 
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -318,39 +326,15 @@ namespace PowerLine
         }
 
 
-
-        public void DrawText() {
-            SizeF textImageSize = panel1.CreateGraphics().MeasureString("ТЕСТ 112345678", this.Font);
-            //создаем ихзображение
-            Bitmap str = new Bitmap((int)textImageSize.Width + 10, (int)textImageSize.Height + 5);
-            Graphics strgr = Graphics.FromImage(str);
-            //рисуем строку
-            strgr.DrawString("ТЕСТ 112345678", this.Font, Brushes.Black, 1, 1);
-            strgr.Save();
-            //а потом поворачиваем на 270 градусов (так чтобы текст читался снизу вверх)
-            str.RotateFlip(RotateFlipType.Rotate270FlipNone);
-            //и рисуем на основно изображении
-            panel1.CreateGraphics().DrawImage(str, 0, 600, str.Width, str.Height);
-        }
-
-        private void увеличитьМасштабToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Bitmap bitmap = new Bitmap(panel1.Width, panel1.Height);
-            using (Graphics gr = Graphics.FromImage(bitmap))
-                gr.CopyFromScreen(panel1.PointToScreen(Point.Empty), Point.Empty, panel1.Size);
-
-            fz.Update(bitmap);
-            fz.ShowDialog();
-        }
-
         void fz_Click2(object sender, MouseEventArgs e)
         {
             if (e.X > 0)
             {
 
-                int X = e.X / 4;
-                int Y = e.Y / 4;
-                RectangleShape s1 = new RectangleShape();
+                int X = e.X / 2-30;
+                int Y = e.Y / 2-40;
+
+                RectangleShape s1=new RectangleShape();
                 int max = 100000;
                 for (int i = 0; i < shapeContainer2.Shapes.Count; i++)
                 {
@@ -367,20 +351,35 @@ namespace PowerLine
                         }
                     }
                 }
+                sender = s1;
 
-                Station l = (Station)((RectangleShape)s1).Tag;
-                l.State = !l.State;
+                Station l = (Station)((RectangleShape)sender).Tag;
+
+                // TODO: Сделано для поворота трасформаторов. Убрать потом
+                if (l.Type != StationType.Station10)
+                    l.State = !l.State;
+                else
+                    l.Angle = 180 + l.Angle;
+
                 l.NeedUpdate = true;
                 UpdateLines(false, false);
+            
 
-                fz.Opacity = 0;
-                Bitmap bitmap = new Bitmap(panel1.Width, panel1.Height);
-                using (Graphics gr = Graphics.FromImage(bitmap))
-                    gr.CopyFromScreen(panel1.PointToScreen(Point.Empty), Point.Empty, panel1.Size);
-                fz.Update(bitmap);
-                fz.Opacity = 100;
-                fz_Click2(sender, new MouseEventArgs(System.Windows.Forms.MouseButtons.Left, 1, -10, 0, 0));
+                Application.Idle += Application_Idle;
+               // fz_Click2(sender, new MouseEventArgs(System.Windows.Forms.MouseButtons.Left, 1, -10, 0, 0));
             }
+        }
+
+        //ok
+        void Application_Idle(object sender, EventArgs e)
+        {
+            fz.Opacity = 0;
+            Bitmap bitmap = new Bitmap(panel1.Width, panel1.Height);
+            using (Graphics gr = Graphics.FromImage(bitmap))
+                gr.CopyFromScreen(panel1.PointToScreen(Point.Empty), Point.Empty, panel1.Size);
+            fz.Update(bitmap);
+            fz.Opacity = 100;
+            Application.Idle -= Application_Idle;
         }
 
         private void привязатьВсеЛинииКСеткеToolStripMenuItem_Click(object sender, EventArgs e)
@@ -400,8 +399,97 @@ namespace PowerLine
         }
 
 
+        private void административныеНастройкиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AdminInfo().ShowDialog();
+            LoadWeather();
+        }
 
-       
+        private void перейтиВРежимКорректировкиСхемToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (UserMode)
+                if (new EnterPassword().ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    UserMode = false;
+                else
+                    UserMode = true;
+            else
+                UserMode = true;
+
+            AdminModeRules();
+        }
+
+        //Ok
+        private void AdminModeRules() {
+            перейтиВРежимКорректировкиСхемToolStripMenuItem.Checked = !UserMode;
+            _mode = 1;
+            proToolStripMenuItem.Visible = !UserMode;
+            режимToolStripMenuItem.Visible = !UserMode;
+            toolStripMenuItem2.Visible = UserMode;
+            файлToolStripMenuItem1.Visible = !UserMode;
+            UpdateLines(true, true);
+        }
+
+        // Обновление схемы
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            SendToServer();
+        }
+
+        // Обновление схемы
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            SendToServer();
+        }
+
+        public void SendToServer() {
+            try
+            {
+                Properties_ p = new Properties_() { Lines = this.Lines, Stations = this.Stations, Texts = this.Texts };
+
+                string RecoverName = Application.StartupPath + "\\Recovery\\" + "Восстановление от " + DateTime.Now.ToString("d.MMM yyyy") + ".sch";
+                if (!System.IO.File.Exists(RecoverName))
+                    Properties_.Save(RecoverName, p);
+
+                Properties_.Save(Properties.Settings.Default["Path"] + Properties.Settings.Default["Name"].ToString(), p);
+
+                последнееОбновлениеToolStripMenuItem.ForeColor = Color.Green;
+                последнееОбновлениеToolStripMenuItem.Text = "Обновлено в " + DateTime.Now.ToShortTimeString();
+            }
+            catch (Exception)
+            {
+                последнееОбновлениеToolStripMenuItem.ForeColor = Color.Firebrick;
+                последнееОбновлениеToolStripMenuItem.Text = "Нет доступа к сети!";
+            }
+        }
+
+        private void восстановитьСхемуИзРезервнойКопииToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Recovery rec = new Recovery();
+            if (rec.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
+                Properties_ p = Properties_.Read(Application.StartupPath + "\\Recovery\\" + rec.Result);
+                Lines = p.Lines;
+                Stations = p.Stations;
+                Texts = p.Texts;
+                UpdateLines(false, true);
+                LoadWeather();
+
+            }
+        }
+
+        private void увеличитьМасштабToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Bitmap bitmap = new Bitmap(panel1.Width, panel1.Height);
+            using (Graphics gr = Graphics.FromImage(bitmap))
+                gr.CopyFromScreen(panel1.PointToScreen(Point.Empty), Point.Empty, panel1.Size);
+
+            fz.Update(bitmap);
+            fz.ShowDialog();
+        }
+
+        private void Form_Scroll(object sender, ScrollEventArgs e)
+        {
+            menuStrip1.Location = new Point(0, 0);
+        }
     }
 
 

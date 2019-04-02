@@ -61,6 +61,7 @@
             System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem("", 28);
             System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem("", 29);
             System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem("", 30);
+            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem("", 31);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetStation));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -85,6 +86,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.textBox2.Location = new System.Drawing.Point(12, 410);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -93,6 +95,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 391);
             this.label2.Name = "label2";
@@ -102,6 +105,7 @@
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button2.Location = new System.Drawing.Point(163, 381);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 23);
@@ -112,6 +116,7 @@
             // 
             // button3
             // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button3.Location = new System.Drawing.Point(163, 410);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 23);
@@ -136,6 +141,9 @@
             // 
             // listView1
             // 
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.BackColor = System.Drawing.Color.Black;
             this.listView1.FullRowSelect = true;
             listViewItem2.StateImageIndex = 0;
@@ -172,7 +180,8 @@
             listViewItem29,
             listViewItem30,
             listViewItem31,
-            listViewItem32});
+            listViewItem32,
+            listViewItem33});
             this.listView1.LabelWrap = false;
             this.listView1.LargeImageList = this.imageList1;
             this.listView1.Location = new System.Drawing.Point(12, 12);
@@ -222,9 +231,11 @@
             this.imageList1.Images.SetKeyName(28, "t7.png");
             this.imageList1.Images.SetKeyName(29, "l1.png");
             this.imageList1.Images.SetKeyName(30, "l2.png");
+            this.imageList1.Images.SetKeyName(31, "x30.png");
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.numericUpDown1.Increment = new decimal(new int[] {
             45,
             0,

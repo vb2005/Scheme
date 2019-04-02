@@ -44,12 +44,12 @@ namespace PowerLine
         public Label GetGraphics(MouseEventHandler CLICK, MouseEventHandler MOVE)
         {
             Label pb = new Label();
-            pb.BackColor = Color.Transparent ;
+            pb.BackColor = Color.Transparent;
             pb.ForeColor = Color.White;
             if (Description.Contains("АС"))
-            pb.ForeColor = Color.Green;
+                pb.ForeColor = Color.Green;
             pb.AutoSize = false;
-            pb.Height = Description.Split('\n').Length * Size *2;
+            pb.Height = Description.Split('\n').Length * Size * 2;
             pb.Width = 10;
             foreach (var a in Description.Split('\n'))
                 pb.Width = Math.Max(pb.Width, a.Length * Size);
@@ -79,4 +79,6 @@ namespace PowerLine
             };
         }
     }
+
+
 }
