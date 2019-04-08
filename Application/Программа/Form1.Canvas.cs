@@ -55,6 +55,7 @@ namespace PowerLine
                                 Lines.Add(l);
 
                             UpdateLines(false, true);
+                            Properties_._instance.Date = DateTime.Now;
                         }
 
                 // В режиме переноса закрепляем перенос
@@ -215,6 +216,7 @@ namespace PowerLine
 
         public void UpdateLines(bool File, bool Full)
         {
+            this.Text = Properties_._instance.Date.ToString();
             Rectangle RectV = new Rectangle(0, 0, 5000, 5000);
 
             Point location = this.panel1.Location;
@@ -313,7 +315,7 @@ namespace PowerLine
 
             //Locations = new List<Point>();
             //Lines.ForEach(o => { Locations.Add(o.StartPoint); Locations.Add(o.EndPoint); });
-
+            
             this.shapeContainer2.BringToFront();
             GC.Collect();
             this.panel1.Location = location;
@@ -325,11 +327,13 @@ namespace PowerLine
             Point point2;
             Station station;
             Point location = this.panel1.Location;
+            
             if (this.UserMode)
             {
+                if (Blocked) return;
                 if (e.Button == MouseButtons.Middle)
                 {
-                    point2 = Line.getNear(new Point(e.Location.X - 0x25, e.Location.Y - 0x25));
+                    point2 = new Point(e.Location.X , e.Location.Y );//= Line.getNear();
                     station = new Station();
                     if (new SetStation(station, 1).ShowDialog() == DialogResult.OK)
                     {
@@ -337,6 +341,7 @@ namespace PowerLine
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
+                        Properties_._instance.Date = DateTime.Now;
                     }
                 }
             }
@@ -350,6 +355,7 @@ namespace PowerLine
                     station.NeedUpdate = true;
                     this.Stations.Add(station);
                     this.UpdateLines(false, false);
+                    Properties_._instance.Date = DateTime.Now;
                 }
             }
             else if (this._mode == 1)
@@ -362,6 +368,7 @@ namespace PowerLine
                     this.Texts.Add(st);
                     st.NeedUpdate = true;
                     this.UpdateLines(false, false);
+                    Properties_._instance.Date = DateTime.Now;
                 }
             }
             this.panel1.Location = location;

@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Программа\Administration and Zoom.cs" />
+    <Compile Include="Программа\User.cs" />
     <Compile Include="Формы дополн\AdminInfo.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -66,6 +66,7 @@
             this.восстановитьСхемуИзРезервнойКопииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.последнееОбновлениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выбратьГородToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -87,10 +88,11 @@
             this.toolStripMenuItem2,
             this.режимToolStripMenuItem,
             this.proToolStripMenuItem,
-            this.режимУправленияToolStripMenuItem});
+            this.режимУправленияToolStripMenuItem,
+            this.выбратьГородToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(3840, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -146,8 +148,8 @@
             this.сохранитьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("сохранитьToolStripMenuItem.Image")));
             this.сохранитьToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.S)));
+            this.сохранитьToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.S)));
             this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
             this.сохранитьToolStripMenuItem.Text = "&Сохранить схему как...";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
@@ -390,6 +392,12 @@
             this.последнееОбновлениеToolStripMenuItem.Size = new System.Drawing.Size(306, 22);
             this.последнееОбновлениеToolStripMenuItem.Text = "Последнее обновление: ";
             // 
+            // выбратьГородToolStripMenuItem
+            // 
+            this.выбратьГородToolStripMenuItem.Name = "выбратьГородToolStripMenuItem";
+            this.выбратьГородToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
+            this.выбратьГородToolStripMenuItem.Text = "Выбрать город";
+            // 
             // lineShape1
             // 
             this.lineShape1.BorderColor = System.Drawing.Color.DarkOrange;
@@ -465,25 +473,26 @@
             // timer2
             // 
             this.timer2.Enabled = true;
-            this.timer2.Interval = 120000;
+            this.timer2.Interval = 60000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1276, 998);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Расстановка элементов";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Scroll += new System.Windows.Forms.ScrollEventHandler(this.Form_Scroll);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DOWN);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MOVE);
@@ -544,6 +553,7 @@
         private System.Windows.Forms.ToolStripMenuItem восстановитьСхемуИзРезервнойКопииToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem увеличитьМасштабToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem выбратьГородToolStripMenuItem;
     }
 }
 

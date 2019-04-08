@@ -12,16 +12,17 @@ namespace PowerLine
     [Serializable]
     public class Properties_
     {
+        public DateTime Date { get; set; }
         public List<Line> Lines { get; set; }
         public List<Station> Stations { get; set; }
         public List<TextField> Texts { get; set; }
         public string hash;
 
         public Properties_() {
+            Date = DateTime.Now;
             Lines = new List<Line>();
             Stations = new List<Station>();
             Texts = new List<TextField>();
-            hash = "0";
         }
 
         /// <summary>
@@ -31,8 +32,6 @@ namespace PowerLine
         /// <returns>Возвращает набор данных</returns>
         public static Properties_ Read(string path)
         {
-
-
             XmlSerializer formatter = new XmlSerializer(typeof(Properties_));
             using (FileStream fs = new FileStream(path, FileMode.Open))
             {
@@ -40,7 +39,21 @@ namespace PowerLine
                 _instance = t;
                 return t;
             }
+        }
 
+        /// <summary>
+        /// Чтение файла со схемой линий
+        /// </summary>
+        /// <param name="path">Путь к файлу *.shm</param>
+        /// <returns>Возвращает набор данных</returns>
+        public static Properties_ ReadNew(string path)
+        {
+          XmlSerializer formatter = new XmlSerializer(typeof(Properties_));
+            using (FileStream fs = new FileStream(path, FileMode.Open))
+            {
+                var t = (Properties_)formatter.Deserialize(fs);
+                return t;
+            }
         }
 
         /// <summary>

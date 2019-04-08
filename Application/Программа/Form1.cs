@@ -45,16 +45,23 @@ namespace PowerLine
         // Режим пользователя
         public bool UserMode = true;
 
+        // Режим блокировки действий
+        public bool Blocked = true;
+
         // Ok
         public Form1()
         {
             InitializeComponent();
+
+
             fz = new ZoomForm(new Bitmap(1,1));
             fz.Click2 += new MouseEventHandler(fz_Click2);
-
+            DataBase.AddCity(выбратьГородToolStripMenuItem, Properties.Settings.Default["Username"].ToString());
             Instance = this;
             Link(false);
             LoadWeather();
+            ReadFromServer(true);
+            //DataBase.InternalCode();
         }
 
         /// <summary>
@@ -432,33 +439,79 @@ namespace PowerLine
         // Обновление схемы
         private void timer2_Tick(object sender, EventArgs e)
         {
-            SendToServer();
+            // TODO >>
+            ReadFromServer(false);
+           // SendToServer();
         }
 
         // Обновление схемы
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
+            // TODO >>
             SendToServer();
         }
 
-        public void SendToServer() {
+        public void ReadFromServer(bool isNewFile)
+        {
             try
             {
-                Properties_ p = new Properties_() { Lines = this.Lines, Stations = this.Stations, Texts = this.Texts };
 
-                string RecoverName = Application.StartupPath + "\\Recovery\\" + "Восстановление от " + DateTime.Now.ToString("d.MMM yyyy") + ".sch";
-                if (!System.IO.File.Exists(RecoverName))
-                    Properties_.Save(RecoverName, p);
+            var pr = Properties_.ReadNew(
+                Properties.Settings.Default["Path"] + 
+                Properties.Settings.Default["Name"].ToString());
 
-                Properties_.Save(Properties.Settings.Default["Path"] + Properties.Settings.Default["Name"].ToString(), p);
+            // В том случае, если сведения на сервере новее текущих, то обновляем текущие
+            if ((Properties_.GetInstance().Date < pr.Date)|isNewFile)
+            {
+                Properties_._instance = pr;
+                Lines = pr.Lines;
+                Stations = pr.Stations;
+                Texts = pr.Texts;
+                UpdateLines(true, true);
+            }
+            else if (Properties_._instance.Date > pr.Date)
+            {
+                Properties_.Save(Properties.Settings.Default["Path"] +
+                    Properties.Settings.Default["Name"].ToString(), Properties_.GetInstance());
+            }
 
-                последнееОбновлениеToolStripMenuItem.ForeColor = Color.Green;
-                последнееОбновлениеToolStripMenuItem.Text = "Обновлено в " + DateTime.Now.ToShortTimeString();
+            string RecoverName1 = Application.StartupPath + "\\Recovery\\" + "Восстановление " + Properties.Settings.Default["Name"].ToString() + " от " + DateTime.Now.ToString("d.MMM yyyy") + ".sch";
+            string RecoverName2 = Application.StartupPath + "\\Recovery\\" + "Текущая схема.sch";
+            if (!System.IO.File.Exists(RecoverName1))
+                Properties_.Save(RecoverName1, Properties_._instance);
+
+            Properties_.Save(RecoverName2, Properties_._instance);
+            последнееОбновлениеToolStripMenuItem.ForeColor = Color.Green;
+            последнееОбновлениеToolStripMenuItem.Text = "Обновлено в " + DateTime.Now.ToShortTimeString();
+
             }
             catch (Exception)
             {
                 последнееОбновлениеToolStripMenuItem.ForeColor = Color.Firebrick;
                 последнееОбновлениеToolStripMenuItem.Text = "Нет доступа к сети!";
+            }
+        }
+
+        public void SendToServer() {
+            try
+            {
+                Properties_ p = Properties_._instance;// new Properties_() { Lines = this.Lines, Stations = this.Stations, Texts = this.Texts };
+
+                string RecoverName1 = Application.StartupPath + "\\Recovery\\" + "Восстановление от " + DateTime.Now.ToString("d.MMM yyyy") + ".sch";
+                string RecoverName2 = Application.StartupPath + "\\Recovery\\" + "Текущая схема.sch";
+                if (!System.IO.File.Exists(RecoverName1))
+                    Properties_.Save(RecoverName2, p);
+                Properties_.Save(RecoverName2, p);
+                Properties_.Save(Properties.Settings.Default["Path"] + Properties.Settings.Default["Name"].ToString(), p);
+                последнееОбновлениеToolStripMenuItem.ForeColor = Color.Green;
+                последнееОбновлениеToolStripMenuItem.Text = "Обновлено в " + DateTime.Now.ToShortTimeString();
+
+            }
+            catch (Exception)
+            {
+                последнееОбновлениеToolStripMenuItem.ForeColor = Color.Firebrick;
+                последнееОбновлениеToolStripMenuItem.Text = "Нет доступа к сети!";
+
             }
         }
 
@@ -471,6 +524,7 @@ namespace PowerLine
                 Stations = p.Stations;
                 Texts = p.Texts;
                 UpdateLines(false, true);
+                Properties_._instance.Date = DateTime.Now;
                 LoadWeather();
 
             }
@@ -489,6 +543,11 @@ namespace PowerLine
         private void Form_Scroll(object sender, ScrollEventArgs e)
         {
             menuStrip1.Location = new Point(0, 0);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

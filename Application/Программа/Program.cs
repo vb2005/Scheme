@@ -7,6 +7,12 @@ namespace PowerLine
 {
     static class Program
     {
+        /// <summary>
+        /// Да, я знаю, что так делают только п*****, ну а какие варианты?
+        /// Огород городить? Или обойтись 2мя строчками?
+        /// </summary>
+        public static Form1 FORM1;
+
         //public static UDPServer udp;
         /// <summary>
         /// Главная точка входа для приложения.
@@ -17,8 +23,8 @@ namespace PowerLine
             //udp = new UDPServer();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            
+            FORM1 = new Form1();
+            Application.Run(FORM1);
         }
     }
 }

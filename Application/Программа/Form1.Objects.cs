@@ -47,6 +47,7 @@ namespace PowerLine
             sender = shape;
             if (this.UserMode)
             {
+                if (Blocked) return;
                 if (e.Button == MouseButtons.Right)
                 {
                     tag = (Station)((RectangleShape)sender).Tag;
@@ -55,6 +56,7 @@ namespace PowerLine
                         this.Stations.Remove(tag);
                     }
                     this.UpdateLines(false, true);
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 if (e.Button == MouseButtons.Left)
                 {
@@ -62,11 +64,13 @@ namespace PowerLine
                     tag.State = !tag.State;
                     tag.NeedUpdate = true;
                     this.UpdateLines(false, false);
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 if (e.Button == MouseButtons.Middle)
                 {
-                    args = new MouseEventArgs(MouseButtons.Middle, 1, (e.X + ((RectangleShape)sender).Bounds.Left) - 0x25, (e.Y + ((RectangleShape)sender).Bounds.Top) - 0x25, 0);
+                    args = new MouseEventArgs(MouseButtons.Middle, 1, (e.X + ((RectangleShape)sender).Bounds.Left) - 25, (e.Y + ((RectangleShape)sender).Bounds.Top) - 25, 0);
                     this.CLICK(null, args);
+                    Properties_._instance.Date = DateTime.Now;
                 }
             }
             else if (this._mode == 1)
@@ -76,15 +80,18 @@ namespace PowerLine
                     tag = (Station)((RectangleShape)sender).Tag;
                     this.Stations.Remove(tag);
                     this.UpdateLines(false, true);
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 if (e.Button == MouseButtons.Middle)
                 {
                     new CorrectPosition((Station)((RectangleShape)sender).Tag).ShowDialog();
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 if (e.Button == MouseButtons.Left)
                 {
                     args = new MouseEventArgs(MouseButtons.Left, 1, (e.X + ((RectangleShape)sender).Bounds.Left) - 0x25, (e.Y + ((RectangleShape)sender).Bounds.Top) - 0x25, 0);
                     this.CLICK(null, args);
+                    Properties_._instance.Date = DateTime.Now;
                 }
             }
             if ((this._mode == 2) && !this.UserMode)
@@ -100,6 +107,7 @@ namespace PowerLine
                 }
                 tag.NeedUpdate = true;
                 this.UpdateLines(false, false);
+                Properties_._instance.Date = DateTime.Now;
             }
             this.panel1.Location = location;
         }
@@ -122,6 +130,7 @@ namespace PowerLine
                     TextField tag = (TextField)((Label)sender).Tag;
                     this.Texts.Remove(tag);
                     this.UpdateLines(false, true);
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 // изменение позиции
                 if ((this._mode == 1) && (e.Button == MouseButtons.Middle))
@@ -147,6 +156,7 @@ namespace PowerLine
             Point location = this.panel1.Location;
             if (this.UserMode)
             {
+                if (Blocked) return;
                 if (e.Button == MouseButtons.Middle)
                 {
                     point2 = e.Location;
@@ -171,6 +181,7 @@ namespace PowerLine
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
+                        Properties_._instance.Date = DateTime.Now;
                     }
                 }
             }
@@ -181,6 +192,7 @@ namespace PowerLine
                     Line tag = (Line)((LineShape)sender).Tag;
                     this.Lines.Remove(tag);
                     this.UpdateLines(false, true);
+                    Properties_._instance.Date = DateTime.Now;
                 }
                 if ((e.Button == MouseButtons.Left) && (this._mode == 1))
                 {
@@ -206,6 +218,7 @@ namespace PowerLine
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
+                        Properties_._instance.Date = DateTime.Now;
                     }
                 }
             }
