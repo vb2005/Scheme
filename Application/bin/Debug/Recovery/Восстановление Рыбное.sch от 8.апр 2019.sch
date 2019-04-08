@@ -1,5 +1,6 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <Properties_ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <hash>0</hash>
   <Date>2019-04-07T15:16:49.579+03:00</Date>
   <Lines>
     <Line>

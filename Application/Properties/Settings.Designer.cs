@@ -25,7 +25,19 @@ namespace PowerLine.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\WDMYCLOUD\\Public\\Shared\\Тарасов\\Учёба")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public string Weather {
+            get {
+                return ((string)(this["Weather"]));
+            }
+            set {
+                this["Weather"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Z:/")]
         public string Path {
             get {
                 return ((string)(this["Path"]));
@@ -37,7 +49,7 @@ namespace PowerLine.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("mi")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Михайлов.sch")]
         public string Name {
             get {
                 return ((string)(this["Name"]));
@@ -49,13 +61,13 @@ namespace PowerLine.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
-        public string Weather {
+        [global::System.Configuration.DefaultSettingValueAttribute("vb2005")]
+        public string Username {
             get {
-                return ((string)(this["Weather"]));
+                return ((string)(this["Username"]));
             }
             set {
-                this["Weather"] = value;
+                this["Username"] = value;
             }
         }
     }
