@@ -338,6 +338,9 @@ namespace PowerLine
                     if (new SetStation(station, 1).ShowDialog() == DialogResult.OK)
                     {
                         station.Location = point2;
+                        // Для больших табличек делаем смещение
+                        if (((int)station.Type >= 18) && ((int)station.Type <= 21))
+                            station.Location = new Point(point2.X + 10, point2.Y);
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
@@ -345,20 +348,23 @@ namespace PowerLine
                     }
                 }
             }
-            else if (sender == null)
+            else if (sender == null) 
             {
                 point2 = Line.getNear(e.Location);
                 station = new Station();
                 if (new SetStation(station, 0).ShowDialog() == DialogResult.OK)
                 {
                     station.Location = point2;
+                    // Для больших табличек делаем смещение
+                    if (((int)station.Type >= 18) && ((int)station.Type <= 21))
+                        station.Location = new Point(point2.X + 10, point2.Y);
                     station.NeedUpdate = true;
                     this.Stations.Add(station);
                     this.UpdateLines(false, false);
                     Properties_._instance.Date = DateTime.Now;
                 }
             }
-            else if (this._mode == 1)
+            else if (this._mode == 1) if (e.Button == System.Windows.Forms.MouseButtons.Left)
             {
                 point2 = Line.getNear(e.Location);
                 TextField st = new TextField();

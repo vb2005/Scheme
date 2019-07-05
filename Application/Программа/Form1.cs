@@ -43,17 +43,18 @@ namespace PowerLine
         private ZoomForm fz;
 
         // Режим пользователя
+        // TODO: В режиме отладки делаем FALSE
         public bool UserMode = true;
 
         // Режим блокировки действий
-        public bool Blocked = true;
+        // TODO: В режиме отладки делаем FALSE
+        public bool Blocked = false;
 
         // Ok
         public Form1()
         {
             InitializeComponent();
-
-
+         
             fz = new ZoomForm(new Bitmap(1,1));
             fz.Click2 += new MouseEventHandler(fz_Click2);
             DataBase.AddCity(выбратьГородToolStripMenuItem, Properties.Settings.Default["Username"].ToString());
@@ -61,7 +62,7 @@ namespace PowerLine
             Link(false);
             LoadWeather();
             ReadFromServer(true);
-            //DataBase.InternalCode();
+         //  DataBase.InternalCode();
         }
 
         /// <summary>
@@ -294,7 +295,7 @@ namespace PowerLine
                     if (l.ColorIndex==Color.White.ToArgb())
                 {
            //         l.ColorIndex = Color.FromArgb(100, 0, 100).ToArgb();
-              //      l.ColorIndex = Color.FromArgb(200, 150, 100).ToArgb();
+            //        l.ColorIndex = Color.FromArgb(200, 150, 100).ToArgb();
                     l.ColorIndex = Color.FromArgb(200, 100, 200).ToArgb();
                 //    l.ColorIndex = Color.FromArgb(130, 100, 50).ToArgb();
 
@@ -333,61 +334,8 @@ namespace PowerLine
         }
 
 
-        void fz_Click2(object sender, MouseEventArgs e)
-        {
-            if (e.X > 0)
-            {
 
-                int X = e.X / 2-30;
-                int Y = e.Y / 2-40;
 
-                RectangleShape s1=new RectangleShape();
-                int max = 100000;
-                for (int i = 0; i < shapeContainer2.Shapes.Count; i++)
-                {
-                    if (shapeContainer2.Shapes.get_Item(i).GetType() == typeof(RectangleShape))
-                    {
-                        int _x = ((RectangleShape)shapeContainer2.Shapes.get_Item(i)).Left;
-                        int _y = ((RectangleShape)shapeContainer2.Shapes.get_Item(i)).Top;
-
-                        int _max = (int)Math.Sqrt(Math.Pow(X - _x, 2) + Math.Pow(Y - _y, 2));
-                        if (max > _max)
-                        {
-                            max = _max;
-                            s1 = (RectangleShape)shapeContainer2.Shapes.get_Item(i);
-                        }
-                    }
-                }
-                sender = s1;
-
-                Station l = (Station)((RectangleShape)sender).Tag;
-
-                // TODO: Сделано для поворота трасформаторов. Убрать потом
-                if (l.Type != StationType.Station10)
-                    l.State = !l.State;
-                else
-                    l.Angle = 180 + l.Angle;
-
-                l.NeedUpdate = true;
-                UpdateLines(false, false);
-            
-
-                Application.Idle += Application_Idle;
-               // fz_Click2(sender, new MouseEventArgs(System.Windows.Forms.MouseButtons.Left, 1, -10, 0, 0));
-            }
-        }
-
-        //ok
-        void Application_Idle(object sender, EventArgs e)
-        {
-            fz.Opacity = 0;
-            Bitmap bitmap = new Bitmap(panel1.Width, panel1.Height);
-            using (Graphics gr = Graphics.FromImage(bitmap))
-                gr.CopyFromScreen(panel1.PointToScreen(Point.Empty), Point.Empty, panel1.Size);
-            fz.Update(bitmap);
-            fz.Opacity = 100;
-            Application.Idle -= Application_Idle;
-        }
 
         private void привязатьВсеЛинииКСеткеToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -398,11 +346,8 @@ namespace PowerLine
 
                 if (l.StartPoint.X % 5 != 0) { l.StartPoint = new Point((int)Math.Round(l.StartPoint.X / 5d) * 5, l.StartPoint.Y); }
                 if (l.StartPoint.Y % 5 != 0) { l.StartPoint = new Point(l.StartPoint.X, (int)Math.Round(l.StartPoint.Y / 5d) * 5); }
-
             }
-
             UpdateLines(true, true);
-
         }
 
 
@@ -548,6 +493,24 @@ namespace PowerLine
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void поднятьВсёНа50ПиксToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var l in Lines)
+            {
+                l.StartPoint = new Point(l.StartPoint.X+20, l.StartPoint.Y);
+                l.EndPoint = new Point(l.EndPoint.X + 20, l.EndPoint.Y);
+            }
+            foreach (var s in Stations)
+            {
+                s.Location = new Point(s.Location.X + 20, s.Location.Y);
+            }
+            foreach (var s in Texts)
+            {
+                s.Location = new Point(s.Location.X + 20, s.Location.Y);
+            }
+            UpdateLines(false, true);
         }
     }
 

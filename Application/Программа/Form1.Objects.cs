@@ -26,25 +26,28 @@ namespace PowerLine
             Station tag;
             MouseEventArgs args;
             Point location = this.panel1.Location;
-            int num = (e.X + ((RectangleShape)sender).Left) - (((RectangleShape)sender).Width / 2);
-            int num2 = (e.Y + ((RectangleShape)sender).Top) - (((RectangleShape)sender).Height / 2);
+            int X = (e.X + ((RectangleShape)sender).Left) - (((RectangleShape)sender).Width / 2);
+            int Y = (e.Y + ((RectangleShape)sender).Top) - (((RectangleShape)sender).Height / 2);
             RectangleShape shape = (RectangleShape)sender;
-            int num3 = 0x186a0;
+            int max = 100000;
             for (int i = 0; i < this.shapeContainer2.Shapes.Count; i++)
             {
                 if (this.shapeContainer2.Shapes.get_Item(i).GetType() == typeof(RectangleShape))
                 {
                     int left = ((RectangleShape)this.shapeContainer2.Shapes.get_Item(i)).Left;
                     int top = ((RectangleShape)this.shapeContainer2.Shapes.get_Item(i)).Top;
-                    int num7 = (int)Math.Sqrt(Math.Pow((double)(num - left), 2.0) + Math.Pow((double)(num2 - top), 2.0));
-                    if (num3 > num7)
+                    int len = (int)Math.Sqrt(Math.Pow((double)(X - left), 2.0) + Math.Pow((double)(Y - top), 2.0));
+                    if (max > len)
                     {
-                        num3 = num7;
+                        max = len;
                         shape = (RectangleShape)this.shapeContainer2.Shapes.get_Item(i);
                     }
                 }
             }
+            var sender1 = sender;
             sender = shape;
+
+            // Режим пользователя
             if (this.UserMode)
             {
                 if (Blocked) return;
@@ -68,11 +71,13 @@ namespace PowerLine
                 }
                 if (e.Button == MouseButtons.Middle)
                 {
-                    args = new MouseEventArgs(MouseButtons.Middle, 1, (e.X + ((RectangleShape)sender).Bounds.Left) - 25, (e.Y + ((RectangleShape)sender).Bounds.Top) - 25, 0);
+                    args = new MouseEventArgs(MouseButtons.Middle, 1, (e.X + ((RectangleShape)sender1).Left) - 30, (e.Y + ((RectangleShape)sender1).Top) - 30, 0);
                     this.CLICK(null, args);
                     Properties_._instance.Date = DateTime.Now;
                 }
             }
+
+            // Режим администратора
             else if (this._mode == 1)
             {
                 if (e.Button == MouseButtons.Right)
@@ -89,7 +94,7 @@ namespace PowerLine
                 }
                 if (e.Button == MouseButtons.Left)
                 {
-                    args = new MouseEventArgs(MouseButtons.Left, 1, (e.X + ((RectangleShape)sender).Bounds.Left) - 0x25, (e.Y + ((RectangleShape)sender).Bounds.Top) - 0x25, 0);
+                    args = new MouseEventArgs(MouseButtons.Left, 1, (e.X + ((RectangleShape)sender1).Left) - 0x25, (e.Y + ((RectangleShape)sender1).Top) - 0x25, 0);
                     this.CLICK(null, args);
                     Properties_._instance.Date = DateTime.Now;
                 }
@@ -122,23 +127,23 @@ namespace PowerLine
         public void Click3(object sender, MouseEventArgs e)
         {
             Point location = this.panel1.Location;
-            if (!this.UserMode)
+            if (!UserMode)
             {
-                // Удлаение
-                if ((this._mode == 1) && (e.Button == MouseButtons.Right))
+                // Удаление
+                if ((_mode == 1) && (e.Button == MouseButtons.Right))
                 {
                     TextField tag = (TextField)((Label)sender).Tag;
-                    this.Texts.Remove(tag);
-                    this.UpdateLines(false, true);
+                    Texts.Remove(tag);
+                    UpdateLines(false, true);
                     Properties_._instance.Date = DateTime.Now;
                 }
                 // изменение позиции
-                if ((this._mode == 1) && (e.Button == MouseButtons.Middle))
+                if ((_mode == 1) && (e.Button == MouseButtons.Middle))
                 {
                     new CorrectPosition((TextField)((Label)sender).Tag).ShowDialog();
                 }
             }
-            this.panel1.Location = location;
+            panel1.Location = location;
         }
 
 
@@ -178,6 +183,9 @@ namespace PowerLine
                             }
                         }
                         station.Location = point2;
+                        // Для больших табличек делаем смещение
+                        if (((int)station.Type >= 18) && ((int)station.Type <= 21))
+                            station.Location = new Point(point2.X + 10, point2.Y);
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
@@ -215,6 +223,9 @@ namespace PowerLine
                             }
                         }
                         station.Location = point2;
+                        // Для больших табличек делаем смещение
+                        if (((int)station.Type >= 18) && ((int)station.Type <= 21))
+                            station.Location = new Point(point2.X + 10, point2.Y);
                         station.NeedUpdate = true;
                         this.Stations.Add(station);
                         this.UpdateLines(false, false);
